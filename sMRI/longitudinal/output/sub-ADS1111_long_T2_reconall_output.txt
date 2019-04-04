@@ -1,0 +1,37 @@
+
+Setting Up Freesurfer6.0
+
+Freesurfer Home is /packages/freesurfer/6.0.0/freesurfer
+
+The Subject Directory is /projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer
+\Running recon-all on sub-ADS1111
+Subject Stamp: freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0-2beb96c
+Current Stamp: freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.0-2beb96c
+INFO: SUBJECTS_DIR is /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer
+Actual FREESURFER_HOME /gpfs/packages/freesurfer/6.0.0/freesurfer
+Linux n025 3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+'/gpfs/packages/freesurfer/6.0.0/freesurfer/bin/recon-all' -> '/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2.long.sub-ADS1111/scripts/recon-all.local-copy'
+#--------------------------------------------
+#@# MotionCor Wed Dec 12 09:28:32 PST 2018
+
+ mri_convert -at /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111/mri/transforms/sub-ADS1111_ses-wave2_to_sub-ADS1111.lta -odt uchar -rt cubic /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2/mri/orig/001.mgz /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2.long.sub-ADS1111/mri/orig.mgz 
+
+mri_convert.bin -at /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111/mri/transforms/sub-ADS1111_ses-wave2_to_sub-ADS1111.lta -odt uchar -rt cubic /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2/mri/orig/001.mgz /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2.long.sub-ADS1111/mri/orig.mgz 
+ltaReadFile(/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111/mri/transforms/sub-ADS1111_ses-wave2_to_sub-ADS1111.lta): can't open file
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2/mri/orig/001.mgz...
+TR=1900.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (0.998996, 0.0446476, -0.00380261)
+j_ras = (-0.0446479, 0.999003, 3.84314e-09)
+k_ras = (0.00379882, 0.000169775, 0.999993)
+INFO: Reading transformation from file /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111/mri/transforms/sub-ADS1111_ses-wave2_to_sub-ADS1111.lta...
+Reading transform with LTAreadEx()
+No such file or directory
+ERROR: Reading transform from file /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111/mri/transforms/sub-ADS1111_ses-wave2_to_sub-ADS1111.lta
+Linux n025 3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+recon-all -s sub-ADS1111_ses-wave2.long.sub-ADS1111 exited with ERRORS at Wed Dec 12 09:28:36 PST 2018
+
+For more details, see the log file /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS1111_ses-wave2.long.sub-ADS1111/scripts/recon-all.log
+To report a problem, see http://surfer.nmr.mgh.harvard.edu/fswiki/BugReporting
+

@@ -1,0 +1,8 @@
+
+WARNING:: Inconsistent orientations for individual images when attempting to merge.
+          Merge will use voxel-based orientation which is probably incorrect - *PLEASE CHECK*!
+
+
+WARNING:: Inconsistent orientations for individual images when attempting to merge.
+          Merge will use voxel-based orientation which is probably incorrect - *PLEASE CHECK*!
+

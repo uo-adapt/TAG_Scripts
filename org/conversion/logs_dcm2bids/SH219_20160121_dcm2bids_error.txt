@@ -1,0 +1,128 @@
+INFO:dcm2bids:--- dcm2bids start ---
+INFO:dcm2bids:subprocess: dcm2niix
+INFO:dcm2bids:
+Chris Rorden's dcm2niiX version v1.0.20171215 GCC5.3.1 (64-bit Linux)
+usage: dcm2niix [options] <in_folder>
+ Options :
+  -1..-9 : gz compression level (1=fastest..9=smallest, default 6)
+  -b : BIDS sidecar (y/n/o(o=only: no NIfTI), default y)
+   -ba : anonymize BIDS (y/n, default y)
+  -c : comment stored as NIfTI aux_file (up to 24 characters)
+  -d : diffusion volumes sorted by b-value (y/n, default n)
+  -f : filename (%a=antenna  (coil) number, %c=comments, %d=description, %e echo number, %f=folder name, %i ID of patient, %j seriesInstanceUID, %k studyInstanceUID, %m=manufacturer, %n=name of patient, %p=protocol, %s=series number, %t=time, %u=acquisition number, %v=vendor, %x=study ID; %z sequence name; default '%3s_%f_%p_%t')
+  -h : show help
+  -i : ignore derived, localizer and 2D images (y/n, default n)
+  -m : merge 2D slices from same series regardless of study time, echo, coil, orientation, etc. (y/n, default n)
+  -n : only convert this series number - can be used up to 16 times (default convert all)
+  -o : output directory (omit to save to input folder)
+  -p : Philips precise float (not display) scaling (y/n, default y)
+  -s : single file mode, do not convert other images in folder (y/n, default n)
+  -t : text notes includes private patient details (y/n, default n)
+  -u : up-to-date check
+  -v : verbose (n/y or 0/1/2 [no, yes, logorrheic], default 0)
+  -x : crop (y/n, default n)
+  -z : gz compress images (y/i/n/3, default y) [y=pigz, i=internal, n=no, 3=no,3D]
+ Defaults file : /home/pettitta/.dcm2nii.ini
+ Examples :
+  dcm2niix /Users/chris/dir
+  dcm2niix -c "my comment" /Users/chris/dir
+  dcm2niix -o /users/cr/outdir/ -z y ~/dicomdir
+  dcm2niix -f %p_%s -b y -ba n ~/dicomdir
+  dcm2niix -f mystudy%s ~/dicomdir
+  dcm2niix -o "~/dir with spaces/dir" ~/dicomdir
+
+INFO:dcm2bids:dcm2niix:version: v1.0.20171215
+INFO:dcm2bids:participant: SH219
+INFO:dcm2bids:session: 1
+INFO:dcm2bids:config: /projects/adapt_lab/shared/SHARP/SHARP_Scripts/org/conversion/study_config.json
+INFO:dcm2bids:BIDS directory: /projects/adapt_lab/shared/SHARP/bids_data
+INFO:dcm2bids:
+INFO:dcm2bids:--- running dcm2niix ---
+INFO:dcm2bids:subprocess: dcm2niix -b y -ba y -z y -f '%3s_%f_%p_%t' -o /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1 /projects/lcni/dcm/adapt_lab/Archive/sharp/SH219_20160121
+INFO:dcm2bids:
+Chris Rorden's dcm2niiX version v1.0.20171215 GCC5.3.1 (64-bit Linux)
+Found 1167 DICOM image(s)
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Convert 270 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/006_SH219_20160121_Resting_2_20160121161722 (84x84x60x270)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/006_SH219_20160121_Resting_2_20160121161722.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Warning: Saving 65 DTI gradients. Validate vectors (images are not axial slices).
+Convert 65 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/010_SH219_20160121_diff_mb2_g2_64dirs_2mm_lr_20160121161722 (90x104x72x65)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/010_SH219_20160121_diff_mb2_g2_64dirs_2mm_lr_20160121161722.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Convert 270 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/005_SH219_20160121_Resting_1_20160121161722 (84x84x60x270)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/005_SH219_20160121_Resting_1_20160121161722.nii"
+Convert 176 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/007_SH219_20160121_mprage_p2_20160121161722 (256x256x176x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/007_SH219_20160121_mprage_p2_20160121161722.nii"
+Convert 128 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/001_SH219_20160121_AAHScout_20160121161722 (160x160x128x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/001_SH219_20160121_AAHScout_20160121161722.nii"
+Convert 176 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/008_SH219_20160121_mprage_p2_20160121161722 (256x256x176x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/008_SH219_20160121_mprage_p2_20160121161722.nii"
+slices not stacked: orientation varies (localizer?) [-0.0266146 0.918145 0.395349 -0.0438346 0.394037 -0.918049] != [-0.539294 0.729203 0.421218 -0.0408109 0.47697 -0.877971]
+Convert 2 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722 (162x162x2x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Warning: Saving 65 DTI gradients. Validate vectors (images are not axial slices).
+Convert 65 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/009_SH219_20160121_diff_mb2_g2_64dirs_2mm_lr_20160121161722 (90x104x72x65)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/009_SH219_20160121_diff_mb2_g2_64dirs_2mm_lr_20160121161722.nii"
+slices not stacked: orientation varies (localizer?) [-0.539294 0.729203 0.421218 -0.0408109 0.47697 -0.877971] != [-0.0266146 0.918145 0.395349 -0.0438346 0.394037 -0.918049]
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722a (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722a.nii"
+slices not stacked: orientation varies (localizer?) [0.998914 0.0392406 -0.0251147 -0.0224731 0.878043 0.478054] != [0.999614 0.00327621 -0.0275957 0.00569719 0.947774 0.318893]
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/004_SH219_20160121_AAHScout_20160121161722 (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/004_SH219_20160121_AAHScout_20160121161722.nii"
+slices not stacked: orientation varies (localizer?) [0.999614 0.00327621 -0.0275957 0.00569719 0.947774 0.318893] != [0.998684 0.0417635 -0.0297594 -0.040082 0.99768 0.0550211]
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/004_SH219_20160121_AAHScout_20160121161722a (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/004_SH219_20160121_AAHScout_20160121161722a.nii"
+slices not stacked: orientation varies (localizer?) [0.999614 0.00327621 -0.0275957 -0.0271993 0.318927 -0.947389] != [0.99922 0.0179824 -0.035159 -0.0383559 0.230019 -0.97243]
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/003_SH219_20160121_AAHScout_20160121161722 (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/003_SH219_20160121_AAHScout_20160121161722.nii"
+slices not stacked: orientation varies (localizer?) [0.99922 0.0179824 -0.035159 -0.0383559 0.230019 -0.97243] != [0.998684 0.0417635 -0.0297594 -0.0415499 0.318848 -0.946895]
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/003_SH219_20160121_AAHScout_20160121161722a (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/003_SH219_20160121_AAHScout_20160121161722a.nii"
+slices not stacked: orientation varies (localizer?) [0.505124 0.767994 0.393744 -0.0408109 0.47697 -0.877971] != [-0.0300569 0.946885 0.320163 -0.0415499 0.318848 -0.946895]
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722b (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722b.nii"
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722c (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/002_SH219_20160121_AAHScout_20160121161722c.nii"
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/003_SH219_20160121_AAHScout_20160121161722b (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/003_SH219_20160121_AAHScout_20160121161722b.nii"
+Convert 1 DICOM as /projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/004_SH219_20160121_AAHScout_20160121161722b (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/SHARP/bids_data/tmp_dcm2bids/sub-SH219_ses-1/004_SH219_20160121_AAHScout_20160121161722b.nii"
+Conversion required 169.319865 seconds (3.796688 for core code).
+
+INFO:dcm2bids:
+INFO:dcm2bids:Sidecars matching:
+INFO:dcm2bids:NO MATCH        001_SH219_20160121_AAHScout_20160121161722.json
+INFO:dcm2bids:NO MATCH        002_SH219_20160121_AAHScout_20160121161722.json
+INFO:dcm2bids:NO MATCH        002_SH219_20160121_AAHScout_20160121161722a.json
+INFO:dcm2bids:NO MATCH        002_SH219_20160121_AAHScout_20160121161722b.json
+INFO:dcm2bids:NO MATCH        002_SH219_20160121_AAHScout_20160121161722c.json
+INFO:dcm2bids:NO MATCH        003_SH219_20160121_AAHScout_20160121161722.json
+INFO:dcm2bids:NO MATCH        003_SH219_20160121_AAHScout_20160121161722a.json
+INFO:dcm2bids:NO MATCH        003_SH219_20160121_AAHScout_20160121161722b.json
+INFO:dcm2bids:NO MATCH        004_SH219_20160121_AAHScout_20160121161722.json
+INFO:dcm2bids:NO MATCH        004_SH219_20160121_AAHScout_20160121161722a.json
+INFO:dcm2bids:NO MATCH        004_SH219_20160121_AAHScout_20160121161722b.json
+INFO:dcm2bids:MATCH           005_SH219_20160121_Resting_1_20160121161722.json
+INFO:dcm2bids:MATCH           006_SH219_20160121_Resting_2_20160121161722.json
+INFO:dcm2bids:MATCH           007_SH219_20160121_mprage_p2_20160121161722.json
+INFO:dcm2bids:MATCH           008_SH219_20160121_mprage_p2_20160121161722.json
+INFO:dcm2bids:MATCH           009_SH219_20160121_dif..lr_20160121161722.json
+INFO:dcm2bids:MATCH           010_SH219_20160121_dif..lr_20160121161722.json
+INFO:dcm2bids:
+INFO:dcm2bids:Checking if a description matches several sidecars ...
+INFO:dcm2bids:'T1w' has several runs
+INFO:dcm2bids:'acq-lr_dwi' has several runs
+INFO:dcm2bids:'task-rest_bold' has several runs
+INFO:dcm2bids:
+INFO:dcm2bids:moving acquisitions into BIDS output directory

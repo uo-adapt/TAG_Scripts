@@ -1,0 +1,16 @@
+making SH166 b0 image
+running SH166 topup
+creating SH166 nodif brain mask
+merging SH166 diffusion sequences
+merging SH166 bvecs
+merging SH166 bvals
+running SH166 eddy
+eddy: msg=--bvecs should contain a 3xN or Nx3 matrix where N is the number of volumes in --imain
+eddy: msg=Error when attempting to read --bvecs file
+SH166 skull stripping and brain extraction
+SH166 linear registration mprage to MNI
+warping SH166 registration nonlinearly
+inverting SH166 non-linear warp
+fitting SH166 tensors at each voxel
+SH166 linear registration FA map to mprage
+inverting SH166 FA-to-structural transformation

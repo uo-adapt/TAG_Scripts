@@ -1,0 +1,17 @@
+Random Study things
+
+SH209 has no dicoms so they will not be included
+
+SH219 has two lr runs for dwi but no rl (exclude from DTI)
+
+SH227 has only one lr for dwi and no rl (exclude from DTI)
+
+SH231 has only one rl for dwi and no lr (exclude from DTI)
+
+SH234 has two rest1 scans (check which one to use)
+
+SH258 has two rest1 scans (check which one to use)
+
+SH177 has extra stuff in their tmp2bids folder (localizer), figure out why
+
+SH225 has extra stuff in their tmp2bids folder (resting, dti), figure out why

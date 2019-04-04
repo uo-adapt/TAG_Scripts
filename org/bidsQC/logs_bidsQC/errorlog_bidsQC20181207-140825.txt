@@ -1,0 +1,2174 @@
+
+--------------------
+sub-002
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-002
+     File: sub-002_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-002
+     File: sub-002_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-002
+     File: sub-002_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-002
+     File: sub-002_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-004
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-004
+     File: sub-004_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-004
+     File: sub-004_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-004
+     File: sub-004_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-004
+     File: sub-004_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-005
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-005
+     File: sub-005_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-005
+     File: sub-005_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-005
+     File: sub-005_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-005
+     File: sub-005_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-006
+--------------------
+WARNING! Too many json files in sub-006 ses-1 func
+WARNING! Too many nii.gz files in sub-006 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-006
+     File: sub-006_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-006
+     File: sub-006_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-006
+     File: sub-006_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-006
+     File: sub-006_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-007
+--------------------
+FILE WARNING! sub-007 MISSING dir-pa json files in ses-1.
+FILE WARNING! sub-007 MISSING dir-pa nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-007
+     File: sub-007_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-007
+     File: sub-007_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-007
+     File: sub-007_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-007
+     File: sub-007_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-008
+--------------------
+FILE WARNING! sub-008 MISSING video json files in ses-1.
+FILE WARNING! sub-008 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-008
+     File: sub-008_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-008
+     File: sub-008_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-008
+     File: sub-008_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-008
+     File: sub-008_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-009
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-009
+     File: sub-009_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-009
+     File: sub-009_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-009
+     File: sub-009_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-009
+     File: sub-009_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-010
+--------------------
+WARNING! Too many json files in sub-010 ses-1 func
+WARNING! Too many nii.gz files in sub-010 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-010
+     File: sub-010_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-010
+     File: sub-010_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-010
+     File: sub-010_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-010
+     File: sub-010_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-011
+--------------------
+WARNING! Too many json files in sub-011 ses-1 func
+WARNING! Too many nii.gz files in sub-011 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-011
+     File: sub-011_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-011
+     File: sub-011_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-011
+     File: sub-011_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-011
+     File: sub-011_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-014
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-014
+     File: sub-014_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-014
+     File: sub-014_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-014
+     File: sub-014_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-014
+     File: sub-014_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-015
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-015
+     File: sub-015_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-015
+     File: sub-015_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-015
+     File: sub-015_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-015
+     File: sub-015_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-016
+--------------------
+WARNING! Too many json files in sub-016 ses-1 func
+WARNING! Too many nii.gz files in sub-016 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-016
+     File: sub-016_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-016
+     File: sub-016_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-016
+     File: sub-016_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-016
+     File: sub-016_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-017
+--------------------
+WARNING! Too many json files in sub-017 ses-1 fmap
+WARNING! Too many nii.gz files in sub-017 ses-1 fmap
+FILE WARNING! sub-017 MISSING video json files in ses-1.
+FILE WARNING! sub-017 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-017
+     File: sub-017_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-017
+     File: sub-017_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-017
+     File: sub-017_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-017
+     File: sub-017_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-018
+--------------------
+
+ SEQUENCE DIRECTORY WARNING! sub-018 ses-1 has 3 total sequence directories Expected 4.
+
+VALUE ERROR in fix_files:
+    Subject: sub-018
+     File: sub-018_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-018
+     File: sub-018_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-018
+     File: sub-018_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-018
+     File: sub-018_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-019
+--------------------
+WARNING! Too many json files in sub-019 ses-1 func
+WARNING! Too many nii.gz files in sub-019 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-019
+     File: sub-019_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-019
+     File: sub-019_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-019
+     File: sub-019_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-019
+     File: sub-019_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-020
+--------------------
+WARNING! Too many json files in sub-020 ses-1 func
+WARNING! Too many nii.gz files in sub-020 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-020
+     File: sub-020_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-020
+     File: sub-020_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-020
+     File: sub-020_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-020
+     File: sub-020_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-021
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-021
+     File: sub-021_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-021
+     File: sub-021_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-021
+     File: sub-021_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-021
+     File: sub-021_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-023
+--------------------
+FILE WARNING! sub-023 MISSING video json files in ses-1.
+FILE WARNING! sub-023 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-023
+     File: sub-023_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-023
+     File: sub-023_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-023
+     File: sub-023_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-023
+     File: sub-023_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-024
+--------------------
+WARNING! Too many json files in sub-024 ses-1 func
+WARNING! Too many nii.gz files in sub-024 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-024
+     File: sub-024_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-024
+     File: sub-024_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-024
+     File: sub-024_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-024
+     File: sub-024_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-026
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-026
+     File: sub-026_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-026
+     File: sub-026_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-026
+     File: sub-026_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-026
+     File: sub-026_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-027
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-027
+     File: sub-027_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-027
+     File: sub-027_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-027
+     File: sub-027_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-027
+     File: sub-027_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-028
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-028
+     File: sub-028_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-028
+     File: sub-028_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-028
+     File: sub-028_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-028
+     File: sub-028_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-029
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-029
+     File: sub-029_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-029
+     File: sub-029_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-029
+     File: sub-029_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-029
+     File: sub-029_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-032
+--------------------
+
+ SEQUENCE DIRECTORY WARNING! sub-032 ses-1 has 3 total sequence directories Expected 4.
+
+FILE WARNING! sub-032 MISSING dir-i- json files in ses-1.
+FILE WARNING! sub-032 MISSING dir-i- nii.gz files in ses-1.
+
+--------------------
+sub-033
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-033
+     File: sub-033_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-033
+     File: sub-033_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-033
+     File: sub-033_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-033
+     File: sub-033_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-034
+--------------------
+FILE WARNING! sub-034 MISSING video json files in ses-1.
+FILE WARNING! sub-034 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-034
+     File: sub-034_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-034
+     File: sub-034_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-034
+     File: sub-034_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-034
+     File: sub-034_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-035
+--------------------
+WARNING! Too many json files in sub-035 ses-1 func
+WARNING! Too many nii.gz files in sub-035 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-035
+     File: sub-035_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-035
+     File: sub-035_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-035
+     File: sub-035_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-035
+     File: sub-035_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-036
+--------------------
+WARNING! Too many json files in sub-036 ses-1 func
+WARNING! Too many nii.gz files in sub-036 ses-1 func
+
+--------------------
+sub-037
+--------------------
+FILE WARNING! sub-037 MISSING video json files in ses-1.
+FILE WARNING! sub-037 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-037
+     File: sub-037_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-037
+     File: sub-037_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-037
+     File: sub-037_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-037
+     File: sub-037_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-038
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-038
+     File: sub-038_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-038
+     File: sub-038_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-038
+     File: sub-038_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-038
+     File: sub-038_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-040
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-040
+     File: sub-040_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-040
+     File: sub-040_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-040
+     File: sub-040_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-040
+     File: sub-040_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-041
+--------------------
+
+--------------------
+sub-042
+--------------------
+WARNING! Too many json files in sub-042 ses-1 func
+WARNING! Too many nii.gz files in sub-042 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-042
+     File: sub-042_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-042
+     File: sub-042_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-042
+     File: sub-042_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-042
+     File: sub-042_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-043
+--------------------
+WARNING! Too many json files in sub-043 ses-1 func
+WARNING! Too many nii.gz files in sub-043 ses-1 func
+FILE WARNING! sub-043 MISSING dir-i- json files in ses-1.
+FILE WARNING! sub-043 MISSING dir-i- nii.gz files in ses-1.
+
+--------------------
+sub-044
+--------------------
+WARNING! Too many json files in sub-044 ses-1 func
+WARNING! Too many nii.gz files in sub-044 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-044
+     File: sub-044_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-044
+     File: sub-044_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-044
+     File: sub-044_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-044
+     File: sub-044_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-045
+--------------------
+FILE WARNING! sub-045 MISSING video json files in ses-1.
+FILE WARNING! sub-045 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-045
+     File: sub-045_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-045
+     File: sub-045_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-045
+     File: sub-045_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-045
+     File: sub-045_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-046
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-046
+     File: sub-046_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-046
+     File: sub-046_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-046
+     File: sub-046_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-046
+     File: sub-046_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-048
+--------------------
+FILE WARNING! sub-048 MISSING dir-pa json files in ses-1.
+FILE WARNING! sub-048 MISSING dir-pa nii.gz files in ses-1.
+FILE WARNING! sub-048 MISSING video json files in ses-1.
+FILE WARNING! sub-048 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-048
+     File: sub-048_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-048
+     File: sub-048_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-048
+     File: sub-048_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-048
+     File: sub-048_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-049
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-049
+     File: sub-049_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-049
+     File: sub-049_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-049
+     File: sub-049_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-049
+     File: sub-049_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-051
+--------------------
+WARNING! Too many json files in sub-051 ses-1 func
+WARNING! Too many nii.gz files in sub-051 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-051
+     File: sub-051_ses-1_task-video_bold.json
+VALUE ERROR in fix_files:
+    Subject: sub-051
+     File: sub-051_ses-1_task-video_bold.nii.gz
+WARNING! Too many json files in sub-051 ses-1 dwi
+WARNING! Too many nii.gz files in sub-051 ses-1 dwi
+VALUE ERROR in fix_files:
+    Subject: sub-051
+     File: sub-051_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-051
+     File: sub-051_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-051
+     File: sub-051_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-051
+     File: sub-051_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-052
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-052
+     File: sub-052_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-052
+     File: sub-052_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-052
+     File: sub-052_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-052
+     File: sub-052_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-053
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-053
+     File: sub-053_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-053
+     File: sub-053_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-053
+     File: sub-053_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-053
+     File: sub-053_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-054
+--------------------
+WARNING! Too many json files in sub-054 ses-1 func
+WARNING! Too many nii.gz files in sub-054 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-054
+     File: sub-054_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-054
+     File: sub-054_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-054
+     File: sub-054_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-054
+     File: sub-054_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-055
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-055
+     File: sub-055_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-055
+     File: sub-055_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-055
+     File: sub-055_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-055
+     File: sub-055_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-056
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-056
+     File: sub-056_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-056
+     File: sub-056_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-056
+     File: sub-056_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-056
+     File: sub-056_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-057
+--------------------
+WARNING! Too many json files in sub-057 ses-1 func
+WARNING! Too many nii.gz files in sub-057 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-057
+     File: sub-057_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-057
+     File: sub-057_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-057
+     File: sub-057_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-057
+     File: sub-057_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-058
+--------------------
+WARNING! Too many json files in sub-058 ses-1 func
+WARNING! Too many nii.gz files in sub-058 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-058
+     File: sub-058_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-058
+     File: sub-058_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-058
+     File: sub-058_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-058
+     File: sub-058_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-059
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-059
+     File: sub-059_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-059
+     File: sub-059_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-059
+     File: sub-059_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-059
+     File: sub-059_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-060
+--------------------
+WARNING! Too many json files in sub-060 ses-1 func
+WARNING! Too many nii.gz files in sub-060 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-060
+     File: sub-060_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-060
+     File: sub-060_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-060
+     File: sub-060_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-060
+     File: sub-060_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-062
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-062
+     File: sub-062_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-062
+     File: sub-062_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-062
+     File: sub-062_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-062
+     File: sub-062_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-064
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-064
+     File: sub-064_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-064
+     File: sub-064_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-064
+     File: sub-064_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-064
+     File: sub-064_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-067
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-067
+     File: sub-067_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-067
+     File: sub-067_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-067
+     File: sub-067_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-067
+     File: sub-067_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-068
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-068
+     File: sub-068_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-068
+     File: sub-068_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-068
+     File: sub-068_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-068
+     File: sub-068_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-070
+--------------------
+WARNING! Too many json files in sub-070 ses-1 func
+WARNING! Too many nii.gz files in sub-070 ses-1 func
+FILE WARNING! sub-070 MISSING video json files in ses-1.
+FILE WARNING! sub-070 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-070
+     File: sub-070_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-070
+     File: sub-070_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-070
+     File: sub-070_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-070
+     File: sub-070_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-071
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-071
+     File: sub-071_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-071
+     File: sub-071_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-071
+     File: sub-071_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-071
+     File: sub-071_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-072
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-072
+     File: sub-072_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-072
+     File: sub-072_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-072
+     File: sub-072_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-072
+     File: sub-072_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-074
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-074
+     File: sub-074_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-074
+     File: sub-074_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-074
+     File: sub-074_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-074
+     File: sub-074_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-075
+--------------------
+WARNING! Too many json files in sub-075 ses-1 anat
+WARNING! Too many nii.gz files in sub-075 ses-1 anat
+WARNING! Too many json files in sub-075 ses-1 func
+WARNING! Too many nii.gz files in sub-075 ses-1 func
+WARNING! Too many json files in sub-075 ses-1 dwi
+WARNING! Too many nii.gz files in sub-075 ses-1 dwi
+VALUE ERROR in fix_files:
+    Subject: sub-075
+     File: sub-075_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-075
+     File: sub-075_ses-1_dir-i_MR.nii.gz
+FILE WARNING! sub-075 MISSING dir-i- json files in ses-1.
+FILE WARNING! sub-075 MISSING dir-i- nii.gz files in ses-1.
+
+--------------------
+sub-076
+--------------------
+WARNING! Too many json files in sub-076 ses-1 anat
+WARNING! Too many nii.gz files in sub-076 ses-1 anat
+VALUE ERROR in fix_files:
+    Subject: sub-076
+     File: sub-076_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-076
+     File: sub-076_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-076
+     File: sub-076_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-076
+     File: sub-076_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-077
+--------------------
+FILE WARNING! sub-077 MISSING video json files in ses-1.
+FILE WARNING! sub-077 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-077
+     File: sub-077_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-077
+     File: sub-077_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-077
+     File: sub-077_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-077
+     File: sub-077_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-078
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-078
+     File: sub-078_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-078
+     File: sub-078_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-078
+     File: sub-078_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-078
+     File: sub-078_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-079
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-079
+     File: sub-079_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-079
+     File: sub-079_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-079
+     File: sub-079_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-079
+     File: sub-079_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-080
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-080
+     File: sub-080_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-080
+     File: sub-080_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-080
+     File: sub-080_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-080
+     File: sub-080_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-081
+--------------------
+WARNING! Too many json files in sub-081 ses-1 func
+WARNING! Too many nii.gz files in sub-081 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-081
+     File: sub-081_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-081
+     File: sub-081_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-081
+     File: sub-081_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-081
+     File: sub-081_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-082
+--------------------
+
+ SEQUENCE DIRECTORY WARNING! sub-082 ses-1 has 2 total sequence directories Expected 4.
+
+FILE WARNING! sub-082 MISSING affect1 json files in ses-1.
+FILE WARNING! sub-082 MISSING affect1 nii.gz files in ses-1.
+FILE WARNING! sub-082 MISSING affect2 json files in ses-1.
+FILE WARNING! sub-082 MISSING affect2 nii.gz files in ses-1.
+FILE WARNING! sub-082 MISSING rest2 json files in ses-1.
+FILE WARNING! sub-082 MISSING rest2 nii.gz files in ses-1.
+FILE WARNING! sub-082 MISSING video json files in ses-1.
+FILE WARNING! sub-082 MISSING video nii.gz files in ses-1.
+
+--------------------
+sub-083
+--------------------
+WARNING! Too many json files in sub-083 ses-1 func
+WARNING! Too many nii.gz files in sub-083 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-083
+     File: sub-083_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-083
+     File: sub-083_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-083
+     File: sub-083_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-083
+     File: sub-083_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-084
+--------------------
+WARNING! Too many json files in sub-084 ses-1 func
+WARNING! Too many nii.gz files in sub-084 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-084
+     File: sub-084_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-084
+     File: sub-084_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-084
+     File: sub-084_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-084
+     File: sub-084_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-085
+--------------------
+WARNING! Too many json files in sub-085 ses-1 anat
+WARNING! Too many nii.gz files in sub-085 ses-1 anat
+WARNING! Too many json files in sub-085 ses-1 func
+WARNING! Too many nii.gz files in sub-085 ses-1 func
+FILE WARNING! sub-085 MISSING video json files in ses-1.
+FILE WARNING! sub-085 MISSING video nii.gz files in ses-1.
+WARNING! Too many json files in sub-085 ses-1 dwi
+WARNING! Too many nii.gz files in sub-085 ses-1 dwi
+FILE WARNING! sub-085 MISSING dir-i- json files in ses-1.
+FILE WARNING! sub-085 MISSING dir-i- nii.gz files in ses-1.
+
+--------------------
+sub-086
+--------------------
+FILE WARNING! sub-086 MISSING video json files in ses-1.
+FILE WARNING! sub-086 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-086
+     File: sub-086_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-086
+     File: sub-086_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-086
+     File: sub-086_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-086
+     File: sub-086_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-088
+--------------------
+FILE WARNING! sub-088 MISSING video json files in ses-1.
+FILE WARNING! sub-088 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-088
+     File: sub-088_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-088
+     File: sub-088_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-088
+     File: sub-088_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-088
+     File: sub-088_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-090
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-090
+     File: sub-090_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-090
+     File: sub-090_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-090
+     File: sub-090_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-090
+     File: sub-090_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-091
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-091
+     File: sub-091_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-091
+     File: sub-091_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-091
+     File: sub-091_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-091
+     File: sub-091_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-092
+--------------------
+WARNING! Too many json files in sub-092 ses-1 func
+WARNING! Too many nii.gz files in sub-092 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-092
+     File: sub-092_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-092
+     File: sub-092_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-092
+     File: sub-092_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-092
+     File: sub-092_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-093
+--------------------
+FILE WARNING! sub-093 MISSING video json files in ses-1.
+FILE WARNING! sub-093 MISSING video nii.gz files in ses-1.
+WARNING! Too many json files in sub-093 ses-1 dwi
+WARNING! Too many nii.gz files in sub-093 ses-1 dwi
+VALUE ERROR in fix_files:
+    Subject: sub-093
+     File: sub-093_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-093
+     File: sub-093_ses-1_dir-i-_MR.nii.gz
+
+--------------------
+sub-094
+--------------------
+WARNING! Too many json files in sub-094 ses-1 func
+WARNING! Too many nii.gz files in sub-094 ses-1 func
+FILE WARNING! sub-094 MISSING video json files in ses-1.
+FILE WARNING! sub-094 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-094
+     File: sub-094_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-094
+     File: sub-094_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-094
+     File: sub-094_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-094
+     File: sub-094_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-095
+--------------------
+FILE WARNING! sub-095 MISSING video json files in ses-1.
+FILE WARNING! sub-095 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-095
+     File: sub-095_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-095
+     File: sub-095_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-095
+     File: sub-095_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-095
+     File: sub-095_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-096
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-096
+     File: sub-096_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-096
+     File: sub-096_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-096
+     File: sub-096_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-096
+     File: sub-096_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-097
+--------------------
+WARNING! Too many json files in sub-097 ses-1 func
+WARNING! Too many nii.gz files in sub-097 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-097
+     File: sub-097_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-097
+     File: sub-097_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-097
+     File: sub-097_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-097
+     File: sub-097_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-099
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-099
+     File: sub-099_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-099
+     File: sub-099_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-099
+     File: sub-099_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-099
+     File: sub-099_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-101
+--------------------
+WARNING! Too many json files in sub-101 ses-1 func
+WARNING! Too many nii.gz files in sub-101 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-101
+     File: sub-101_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-101
+     File: sub-101_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-101
+     File: sub-101_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-101
+     File: sub-101_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-102
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-102
+     File: sub-102_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-102
+     File: sub-102_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-102
+     File: sub-102_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-102
+     File: sub-102_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-103
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-103
+     File: sub-103_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-103
+     File: sub-103_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-103
+     File: sub-103_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-103
+     File: sub-103_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-104
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-104
+     File: sub-104_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-104
+     File: sub-104_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-104
+     File: sub-104_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-104
+     File: sub-104_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-105
+--------------------
+WARNING! Too many json files in sub-105 ses-1 func
+WARNING! Too many nii.gz files in sub-105 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-105
+     File: sub-105_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-105
+     File: sub-105_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-105
+     File: sub-105_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-105
+     File: sub-105_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-106
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-106
+     File: sub-106_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-106
+     File: sub-106_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-106
+     File: sub-106_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-106
+     File: sub-106_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-107
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-107
+     File: sub-107_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-107
+     File: sub-107_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-107
+     File: sub-107_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-107
+     File: sub-107_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-108
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-108
+     File: sub-108_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-108
+     File: sub-108_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-108
+     File: sub-108_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-108
+     File: sub-108_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-110
+--------------------
+FILE WARNING! sub-110 MISSING rest1 json files in ses-1.
+FILE WARNING! sub-110 MISSING rest1 nii.gz files in ses-1.
+FILE WARNING! sub-110 MISSING video json files in ses-1.
+FILE WARNING! sub-110 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-110
+     File: sub-110_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-110
+     File: sub-110_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-110
+     File: sub-110_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-110
+     File: sub-110_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-111
+--------------------
+
+ SEQUENCE DIRECTORY WARNING! sub-111 ses-1 has 1 total sequence directories Expected 4.
+
+FILE WARNING! sub-111 MISSING affect2 json files in ses-1.
+FILE WARNING! sub-111 MISSING affect2 nii.gz files in ses-1.
+FILE WARNING! sub-111 MISSING rest1 json files in ses-1.
+FILE WARNING! sub-111 MISSING rest1 nii.gz files in ses-1.
+FILE WARNING! sub-111 MISSING rest2 json files in ses-1.
+FILE WARNING! sub-111 MISSING rest2 nii.gz files in ses-1.
+FILE WARNING! sub-111 MISSING video json files in ses-1.
+FILE WARNING! sub-111 MISSING video nii.gz files in ses-1.
+
+--------------------
+sub-112
+--------------------
+WARNING! Too many json files in sub-112 ses-1 func
+WARNING! Too many nii.gz files in sub-112 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-112
+     File: sub-112_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-112
+     File: sub-112_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-112
+     File: sub-112_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-112
+     File: sub-112_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-113
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-113
+     File: sub-113_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-113
+     File: sub-113_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-113
+     File: sub-113_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-113
+     File: sub-113_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-114
+--------------------
+FILE WARNING! sub-114 MISSING video json files in ses-1.
+FILE WARNING! sub-114 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-114
+     File: sub-114_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-114
+     File: sub-114_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-114
+     File: sub-114_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-114
+     File: sub-114_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-115
+--------------------
+WARNING! Too many json files in sub-115 ses-1 fmap
+WARNING! Too many nii.gz files in sub-115 ses-1 fmap
+VALUE ERROR in fix_files:
+    Subject: sub-115
+     File: sub-115_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-115
+     File: sub-115_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-115
+     File: sub-115_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-115
+     File: sub-115_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-116
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-116
+     File: sub-116_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-116
+     File: sub-116_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-116
+     File: sub-116_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-116
+     File: sub-116_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-118
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-118
+     File: sub-118_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-118
+     File: sub-118_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-118
+     File: sub-118_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-118
+     File: sub-118_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-124
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-124
+     File: sub-124_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-124
+     File: sub-124_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-124
+     File: sub-124_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-124
+     File: sub-124_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-125
+--------------------
+FILE WARNING! sub-125 MISSING video json files in ses-1.
+FILE WARNING! sub-125 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-125
+     File: sub-125_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-125
+     File: sub-125_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-125
+     File: sub-125_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-125
+     File: sub-125_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-126
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-126
+     File: sub-126_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-126
+     File: sub-126_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-126
+     File: sub-126_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-126
+     File: sub-126_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-127
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-127
+     File: sub-127_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-127
+     File: sub-127_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-127
+     File: sub-127_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-127
+     File: sub-127_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-129
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-129
+     File: sub-129_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-129
+     File: sub-129_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-129
+     File: sub-129_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-129
+     File: sub-129_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-130
+--------------------
+WARNING! Too many json files in sub-130 ses-1 func
+WARNING! Too many nii.gz files in sub-130 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-130
+     File: sub-130_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-130
+     File: sub-130_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-130
+     File: sub-130_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-130
+     File: sub-130_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-131
+--------------------
+FILE WARNING! sub-131 MISSING video json files in ses-1.
+FILE WARNING! sub-131 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-131
+     File: sub-131_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-131
+     File: sub-131_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-131
+     File: sub-131_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-131
+     File: sub-131_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-132
+--------------------
+FILE WARNING! sub-132 MISSING affect1 json files in ses-1.
+FILE WARNING! sub-132 MISSING affect1 nii.gz files in ses-1.
+FILE WARNING! sub-132 MISSING video json files in ses-1.
+FILE WARNING! sub-132 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-132
+     File: sub-132_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-132
+     File: sub-132_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-132
+     File: sub-132_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-132
+     File: sub-132_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-133
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-133
+     File: sub-133_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-133
+     File: sub-133_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-133
+     File: sub-133_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-133
+     File: sub-133_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-135
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-135
+     File: sub-135_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-135
+     File: sub-135_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-135
+     File: sub-135_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-135
+     File: sub-135_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-137
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-137
+     File: sub-137_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-137
+     File: sub-137_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-137
+     File: sub-137_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-137
+     File: sub-137_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-138
+--------------------
+FILE WARNING! sub-138 MISSING video json files in ses-1.
+FILE WARNING! sub-138 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-138
+     File: sub-138_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-138
+     File: sub-138_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-138
+     File: sub-138_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-138
+     File: sub-138_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-139
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-139
+     File: sub-139_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-139
+     File: sub-139_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-139
+     File: sub-139_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-139
+     File: sub-139_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-140
+--------------------
+FILE WARNING! sub-140 MISSING video json files in ses-1.
+FILE WARNING! sub-140 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-140
+     File: sub-140_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-140
+     File: sub-140_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-140
+     File: sub-140_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-140
+     File: sub-140_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-141
+--------------------
+WARNING! Too many json files in sub-141 ses-1 anat
+WARNING! Too many nii.gz files in sub-141 ses-1 anat
+FILE WARNING! sub-141 MISSING video json files in ses-1.
+FILE WARNING! sub-141 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-141
+     File: sub-141_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-141
+     File: sub-141_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-141
+     File: sub-141_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-141
+     File: sub-141_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-142
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-142
+     File: sub-142_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-142
+     File: sub-142_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-142
+     File: sub-142_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-142
+     File: sub-142_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-143
+--------------------
+FILE WARNING! sub-143 MISSING affect2 json files in ses-1.
+FILE WARNING! sub-143 MISSING affect2 nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-143
+     File: sub-143_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-143
+     File: sub-143_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-143
+     File: sub-143_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-143
+     File: sub-143_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-145
+--------------------
+FILE WARNING! sub-145 MISSING affect1 json files in ses-1.
+FILE WARNING! sub-145 MISSING affect1 nii.gz files in ses-1.
+FILE WARNING! sub-145 MISSING affect2 json files in ses-1.
+FILE WARNING! sub-145 MISSING affect2 nii.gz files in ses-1.
+FILE WARNING! sub-145 MISSING video json files in ses-1.
+FILE WARNING! sub-145 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-145
+     File: sub-145_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-145
+     File: sub-145_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-145
+     File: sub-145_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-145
+     File: sub-145_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-146
+--------------------
+WARNING! Too many json files in sub-146 ses-1 func
+WARNING! Too many nii.gz files in sub-146 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-146
+     File: sub-146_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-146
+     File: sub-146_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-146
+     File: sub-146_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-146
+     File: sub-146_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-148
+--------------------
+WARNING! Too many json files in sub-148 ses-1 func
+WARNING! Too many nii.gz files in sub-148 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-148
+     File: sub-148_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-148
+     File: sub-148_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-148
+     File: sub-148_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-148
+     File: sub-148_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-149
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-149
+     File: sub-149_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-149
+     File: sub-149_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-149
+     File: sub-149_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-149
+     File: sub-149_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-151
+--------------------
+WARNING! Too many json files in sub-151 ses-1 func
+WARNING! Too many nii.gz files in sub-151 ses-1 func
+VALUE ERROR in fix_files:
+    Subject: sub-151
+     File: sub-151_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-151
+     File: sub-151_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-151
+     File: sub-151_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-151
+     File: sub-151_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-152
+--------------------
+
+ SEQUENCE DIRECTORY WARNING! sub-152 ses-1 has 3 total sequence directories Expected 4.
+
+WARNING! Too many json files in sub-152 ses-1 func
+WARNING! Too many nii.gz files in sub-152 ses-1 func
+FILE WARNING! sub-152 MISSING affect2 json files in ses-1.
+FILE WARNING! sub-152 MISSING affect2 nii.gz files in ses-1.
+FILE WARNING! sub-152 MISSING dir-i- json files in ses-1.
+FILE WARNING! sub-152 MISSING dir-i- nii.gz files in ses-1.
+
+--------------------
+sub-153
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-153
+     File: sub-153_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-153
+     File: sub-153_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-153
+     File: sub-153_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-153
+     File: sub-153_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-154
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-154
+     File: sub-154_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-154
+     File: sub-154_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-154
+     File: sub-154_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-154
+     File: sub-154_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-156
+--------------------
+
+ SEQUENCE DIRECTORY WARNING! sub-156 ses-1 has 3 total sequence directories Expected 4.
+
+WARNING! Too many json files in sub-156 ses-1 func
+WARNING! Too many nii.gz files in sub-156 ses-1 func
+FILE WARNING! sub-156 MISSING dir-i- json files in ses-1.
+FILE WARNING! sub-156 MISSING dir-i- nii.gz files in ses-1.
+
+--------------------
+sub-158
+--------------------
+FILE WARNING! sub-158 MISSING affect2 json files in ses-1.
+FILE WARNING! sub-158 MISSING affect2 nii.gz files in ses-1.
+FILE WARNING! sub-158 MISSING video json files in ses-1.
+FILE WARNING! sub-158 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-158
+     File: sub-158_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-158
+     File: sub-158_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-158
+     File: sub-158_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-158
+     File: sub-158_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-159
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-159
+     File: sub-159_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-159
+     File: sub-159_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-159
+     File: sub-159_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-159
+     File: sub-159_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-160
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-160
+     File: sub-160_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-160
+     File: sub-160_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-160
+     File: sub-160_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-160
+     File: sub-160_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-161
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-161
+     File: sub-161_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-161
+     File: sub-161_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-161
+     File: sub-161_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-161
+     File: sub-161_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-162
+--------------------
+FILE WARNING! sub-162 MISSING video json files in ses-1.
+FILE WARNING! sub-162 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-162
+     File: sub-162_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-162
+     File: sub-162_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-162
+     File: sub-162_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-162
+     File: sub-162_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-163
+--------------------
+FILE WARNING! sub-163 MISSING video json files in ses-1.
+FILE WARNING! sub-163 MISSING video nii.gz files in ses-1.
+VALUE ERROR in fix_files:
+    Subject: sub-163
+     File: sub-163_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-163
+     File: sub-163_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-163
+     File: sub-163_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-163
+     File: sub-163_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-167
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-167
+     File: sub-167_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-167
+     File: sub-167_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-167
+     File: sub-167_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-167
+     File: sub-167_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-201
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-201
+     File: sub-201_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-201
+     File: sub-201_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-201
+     File: sub-201_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-201
+     File: sub-201_ses-1_dir-i_MR.nii.gz
+
+--------------------
+sub-202
+--------------------
+VALUE ERROR in fix_files:
+    Subject: sub-202
+     File: sub-202_ses-1_dir-i-_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-202
+     File: sub-202_ses-1_dir-i_MR.json
+VALUE ERROR in fix_files:
+    Subject: sub-202
+     File: sub-202_ses-1_dir-i-_MR.nii.gz
+VALUE ERROR in fix_files:
+    Subject: sub-202
+     File: sub-202_ses-1_dir-i_MR.nii.gz

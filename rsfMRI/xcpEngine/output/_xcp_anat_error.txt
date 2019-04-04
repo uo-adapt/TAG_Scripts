@@ -1,0 +1,7 @@
+Lmod has detected the following error: These module(s) exist but cannot be
+loaded as requested: "c3d"
+   Try: "module spider c3d" to see how to load the module(s).
+
+
+
+rm: cannot remove ‘/projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/anat_cohort.csv..csv,/projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/anat_cohort.csv..csv’: No such file or directory

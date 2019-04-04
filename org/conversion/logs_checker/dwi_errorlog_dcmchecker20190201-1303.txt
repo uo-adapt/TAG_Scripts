@@ -1,0 +1,48 @@
+sub-SH227_ses-1_acq-lr_dwi.bvec is missing for sub-SH227, ses-1
+
+sub-SH227_ses-1_acq-lr_dwi.nii.gz is missing for sub-SH227, ses-1
+
+sub-SH227_ses-1_acq-lr_dwi.json is missing for sub-SH227, ses-1
+
+sub-SH227_ses-1_acq-lr_dwi.bval is missing for sub-SH227, ses-1
+
+sub-SH231_ses-1_acq-lr_dwi.bval is missing for sub-SH231, ses-1
+
+sub-SH231_ses-1_acq-lr_dwi.bvec is missing for sub-SH231, ses-1
+
+sub-SH231_ses-1_acq-lr_dwi.json is missing for sub-SH231, ses-1
+
+sub-SH231_ses-1_acq-lr_dwi.nii.gz is missing for sub-SH231, ses-1
+
+sub-SH219_ses-1_acq-lr_dwi.bval is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_dwi.json is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-rl_dwi.nii.gz is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-rl_dwi.json is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-rl_dwi.bval is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-rl_dwi.bvec is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_dwi.bvec is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_dwi.nii.gz is missing for sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-02_dwi.nii.gz is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-02_dwi.bval is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-01_dwi.bvec is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-01_dwi.nii.gz is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-01_dwi.json is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-02_dwi.json is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-02_dwi.bvec is an unrecognized file in sub-SH219, ses-1
+
+sub-SH219_ses-1_acq-lr_run-01_dwi.bval is an unrecognized file in sub-SH219, ses-1
+

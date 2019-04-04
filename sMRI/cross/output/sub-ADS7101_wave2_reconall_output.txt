@@ -1,0 +1,15 @@
+
+Setting Up Freesurfer6.0
+
+Freesurfer Home is /packages/freesurfer/6.0.0/freesurfer
+
+The Subject Directory is /projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer
+\Running recon-all on sub-ADS7101
+ERROR: cannot find /projects/adapt_lab/shared/ADS/data/BIDS_data/sub-ADS7101/ses-wave2/anat/sub-ADS7101_ses-wave2_T1w.nii.gz
+Linux n013 3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+recon-all -s  exited with ERRORS at Sun Dec  9 20:54:39 PST 2018
+
+For more details, see the log file 
+To report a problem, see http://surfer.nmr.mgh.harvard.edu/fswiki/BugReporting
+

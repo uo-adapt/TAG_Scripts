@@ -1,0 +1,66 @@
+Lmod has detected the following error: These module(s) exist but cannot be
+loaded as requested: "c3d"
+   Try: "module spider c3d" to see how to load the module(s).
+
+
+
+Some packages in this Docker container are non-free
+If you are considering commercial use of this container, please consult the relevant license:
+https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence
+-c /projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/anat_cohort.csv..csv -d /projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/anat-Complete+_201901151515.dsn -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data -i /tmp -c /projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/anat_cohort.csv..csv -d /projects/adapt_lab/shared/SHARP/SHARP_Scripts/rsfMRI/xcpEngine/anat-Complete+_201901151515.dsn -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data -i /tmp
+
+Constructing a pipeline based on user specifications
+····································································
+· [D]Missing or empty design file
+· [D]Aborting
+___________________________________________________________________
+
+
+   Usage: xcpEngine -d <design> <options>
+
+   Compulsory arguments:
+    -d : Primary design file for pipeline:
+         The design file specifies the pipeline modules to
+         be included in the current analysis and configures
+         any parameters necessary to run the modules.
+    -c : Cohort file for pipeline input:
+         A comma-separated catalogue of the analytic sample.
+         Each row corresponds to a subject, and each column
+         corresponds either to an identifier or to an input.
+    -o : Parent directory for pipeline output:
+         A valid path on the current filesystem specifying
+         the directory wherein all output from the current
+         analysis will be written.
+
+   Optional arguments:
+    -m : Execution mode:
+         Input can either be 's' (for serial execution on a
+         single machine)[default], 'c' (for execution on a
+         computing cluster) or a path to a file (for execution
+         on a computing cluster, subject to the specifications
+         defined in the file).
+    -i : Scratch space for pipeline intermediates:
+         Some systems operate more quickly when temporary
+         files are written in a dedicated scratch space. This
+         argument enables a scratch space for intermediates.
+    -r : Root directory for inputs:
+         If all paths defined in the cohort file are defined
+         relative to a root directory, then this argument will
+         define the root directory. Otherwise, all paths will
+         be treated as absolute.
+    -t : Trace:
+         Integer value ( 0 - 3 ) that indicates the level
+         of verbosity during module execution. Higher
+         levels reduce readability but provide useful
+         information for troubleshooting.
+         0  [default]: Human-readable explanations of
+            processing steps and error traces only.
+         1: Explicitly trace module-level computations.
+            Print a workflow map when execution completes.
+         2: Explicitly trace module- and utility-level
+            computations.
+         3: All commands called by the module and all
+            children are traced and explicitly replicated
+            in a log file.
+
+

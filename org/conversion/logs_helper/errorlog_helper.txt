@@ -1,0 +1,4 @@
+Incorrect dicom directory specified
+Test participant's folder does not exist - SH220_20160307 
+SH220_20160307
+

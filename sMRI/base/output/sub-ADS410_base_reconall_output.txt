@@ -1,0 +1,73 @@
+
+Setting Up Freesurfer6.0
+
+Freesurfer Home is /packages/freesurfer/6.0.0/freesurfer
+
+The Subject Directory is /projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer
+\Running recon-all on sub-ADS410
+
+Setting Up Freesurfer6.0
+
+Freesurfer Home is /packages/freesurfer/6.0.0/freesurfer
+
+The Subject Directory is /projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer
+\Running recon-all on sub-ADS410
+
+ERROR: It appears that the -base templateID that you passed:
+       -base sub-ADS410
+       is an existing regular (cross sectional) run!
+       Please make sure you pass a new name (not one of
+       the time points) for the template with -base.
+       For example, if you are trying to create a -base:
+
+       \' -base BertTemplate -tp Bert1 -tp Bert2 ... \'
+
+
+ERROR: It appears that the -base templateID that you passed:
+       -base sub-ADS410
+       is an existing regular (cross sectional) run!
+       Please make sure you pass a new name (not one of
+       the time points) for the template with -base.
+       For example, if you are trying to create a -base:
+
+       \' -base BertTemplate -tp Bert1 -tp Bert2 ... \'
+
+'/gpfs/packages/freesurfer/6.0.0/freesurfer/bin/recon-all' -> '/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410/scripts/recon-all.local-copy'
+#--------------------------------------------
+#@# Longitudinal Base Subject Creation Tue Dec 11 10:06:59 PST 2018
+/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410
+
+ mri_diff --notallow-pix --notallow-geo /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave3/mri/rawavg.mgz /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/rawavg.mgz 
+
+mghRead(/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/rawavg.mgz, -1): could not open file
+
+*******************************************************************************
+WARNING: Image parameters differ across time, maybe due to aquisition changes?
+         Consistent changes in, e.g., resolution can potentially bias a 
+         longitudinal study! You can check image parameters by running mri_info
+         on each input image. Will continue in 10 seconds ...
+*******************************************************************************
+
+
+ mri_robust_template --mov /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/norm.mgz /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave3/mri/norm.mgz --lta /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410/mri/transforms/sub-ADS410_ses-wave2_to_sub-ADS410.lta /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410/mri/transforms/sub-ADS410_ses-wave3_to_sub-ADS410.lta --template /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410/mri/norm_template.mgz --average 1 --sat 4.685 
+
+$Id: mri_robust_template.cpp,v 1.54 2016/05/05 21:17:08 mreuter Exp $
+
+--mov: Using /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/norm.mgz as movable/source volume.
+--mov: Using /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave3/mri/norm.mgz as movable/source volume.
+    Total: 2 input volumes
+--lta: Will output LTA transforms
+--template: Using /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410/mri/norm_template.mgz as template output volume.
+--average: Using method 1 for template computation.
+--sat: Using saturation 4.685 in M-estimator!
+reading source '/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/norm.mgz'...
+mghRead(/gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/norm.mgz, -1): could not open file
+MultiRegistration::loadMovables: could not open input volume /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410_ses-wave2/mri/norm.mgz.
+
+Linux n069 3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+recon-all -s sub-ADS410 exited with ERRORS at Tue Dec 11 10:07:09 PST 2018
+
+For more details, see the log file /gpfs/projects/adapt_lab/shared/ADS/data/BIDS_data/derivatives/freesurfer/sub-ADS410/scripts/recon-all.log
+To report a problem, see http://surfer.nmr.mgh.harvard.edu/fswiki/BugReporting
+

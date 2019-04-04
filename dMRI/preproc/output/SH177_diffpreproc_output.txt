@@ -1,0 +1,16 @@
+making SH177 b0 image
+running SH177 topup
+creating SH177 nodif brain mask
+merging SH177 diffusion sequences
+merging SH177 bvecs
+merging SH177 bvals
+running SH177 eddy
+eddy: msg=--bvecs should contain a 3xN or Nx3 matrix where N is the number of volumes in --imain
+eddy: msg=Error when attempting to read --bvecs file
+SH177 skull stripping and brain extraction
+SH177 linear registration mprage to MNI
+warping SH177 registration nonlinearly
+inverting SH177 non-linear warp
+fitting SH177 tensors at each voxel
+SH177 linear registration FA map to mprage
+inverting SH177 FA-to-structural transformation

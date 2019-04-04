@@ -1,0 +1,414 @@
+Lmod has detected the following error: These module(s) exist but cannot be
+loaded as requested: "c3d"
+   Try: "module spider c3d" to see how to load the module(s).
+
+
+
+
+
+
+Current processing step:
+@1 Localising subject metadata...
+····································································
+· @1.1 [Parsing subject identifiers]
+· @1.1a [Creating output directory]
+· @1.1b [/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1]
+· @1.2 [Initialising space mapping]
+· @1.3 [Initialising derivative maps]
+· @1.4 [Initialising atlas system]
+· @1.5 Ingress
+· @1.5.1 [Native space: sub-SH259_ses-1_anatomical]
+· @1.5.2a [Standard space: MNI]
+· @1.5.3a [Anatomical space: sub-SH259_ses-1_anatomical]
+· @1.5 [Priming analytic audit]
+· @1.6 [Priming quality assessment]
+
+
+
+Current processing step:
+@2 Localising image
+····································································
+· @2.1 [Verifying that images are present]
+· @2.2 [Conforming and localising images]
+
+
+
+Current processing step:
+@3 Localising design
+····································································
+· @3.1 [Writing localised design]
+· @3.2 [Evaluating subject variables]
+                             -   -   -
+>> rln /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/template.nii.gz
+                             -   -   -
+>> rln /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~.nii.gz
+                             -   -   -
+>> 12-10-1
+                             -   -   -
+>> 12-1
+· @0.1 
+
+
+
+Current processing step:
+@0 Ensure matching orientation
+····································································
+· @0.1a Input: /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~.nii.gz
+· @0.1b Template: /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz
+· @0.1c Output root: /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_
+· @0.1d LPI -> RPI
+[7m*+ WARNING:[0m   If you are performing spatial transformations on an oblique dset, 
+  such as /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~.nii.gz,
+  or viewing/combining it with volumes of differing obliquity,
+  you should consider running: 
+     3dWarp -deoblique 
+  on this and  other oblique datasets in the same session.
+ See 3dWarp -help for details.
+++ Oblique dataset:/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~.nii.gz is 3.597279 degrees from plumb.
+
+
+
+Current processing step:
+@1 ANTs cortical thickness pipeline
+····································································
+· @1.1a Input: /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI.nii.gz
+· @1.1b Template: /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz
+· @1.1c Output root: /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_
+· @1.x Delegating control to ANTsCT
+                             -   -   -
+>> antsCorticalThickness.sh -d 3 -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI.nii.gz -e /xcpEngine-master/space/MNI/MNI-1x1x1Head.nii.gz -m /xcpEngine-master/space/MNI/MNI-1x1x1BrainPrior.nii.gz -p /xcpEngine-master/space/MNI/MNI_priors/MNI-priors-%03d.nii.gz -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ -s nii.gz -t /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz -f /xcpEngine-master/space/MNI/MNI-1x1x1MaskDilated.nii.gz -g 1 -w 0.25 -b Socrates[1] -j 0 -u 0 -v 0 -q 0
+
+    Using antsCorticalThickness with the following arguments:
+      image dimension         = 3
+      anatomical image        = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI.nii.gz
+      brain template          = /xcpEngine-master/space/MNI/MNI-1x1x1Head.nii.gz
+      extraction prior        = /xcpEngine-master/space/MNI/MNI-1x1x1BrainPrior.nii.gz
+      extraction reg. mask    = /xcpEngine-master/space/MNI/MNI-1x1x1MaskDilated.nii.gz
+      segmentation prior      = /xcpEngine-master/space/MNI/MNI_priors/MNI-priors-%03d.nii.gz
+      output prefix           = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_
+      output image suffix     = nii.gz
+      registration template   = /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz
+
+    ANTs parameters:
+      metric                  = CC[fixedImage,movingImage,1,4]
+      regularization          = 
+      transformation          = SyN[0.1,3,0]
+      max iterations          = 100x100x70x20
+
+    DiReCT parameters:
+      convergence             = [45,0.0,10]
+      thickness prior         = 10
+      gradient step size      = 0.025
+      smoothing sigma         = 1.5
+
+    Other parameters:
+      run quick               = 0
+      debug mode              = 0
+      denoise images          = 1
+      float precision         = 0
+      use random seeding      = 0
+      prior combinations      = WM[4]
+
+
+    Using antsBrainExtraction with the following arguments:
+      image dimension         = 3
+      anatomical image        = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI.nii.gz
+      extraction template     = /xcpEngine-master/space/MNI/MNI-1x1x1Head.nii.gz
+      extraction reg. mask    = /xcpEngine-master/space/MNI/MNI-1x1x1MaskDilated.nii.gz
+      extraction prior        = /xcpEngine-master/space/MNI/MNI-1x1x1BrainPrior.nii.gz
+      output prefix           = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_
+      output image suffix     = nii.gz
+
+    N4 parameters (pre brain extraction):
+      convergence             = [50x50x50x50,0.0000001]
+      shrink factor           = 4
+      B-spline parameters     = [200]
+
+    Atropos parameters (extraction):
+       convergence            = [3,0.0]
+       likelihood             = Gaussian
+       initialization         = kmeans[3]
+       mrf                    = [0.1,1x1x1]
+       use clock random seed  = 0
+
+
+    Using antsAtroposN4 with the following arguments:
+      image dimension         = 3
+      anatomical image        = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI.nii.gz
+      segmentation priors     = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentationPriorWarped%03d.nii.gz
+      output prefix           = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_Brain
+      output image suffix     = nii.gz
+      denoise images          = 1
+
+    N4 parameters (segmentation):
+      convergence             = [50x50x50x50,0.0000000001]
+      shrink factor           = 2
+      B-spline parameters     = [200]
+      weight mask post. label = 2 3 4 5 6
+
+    Atropos parameters (segmentation):
+       convergence            = [5,0.0]
+       likelihood             = Gaussian
+       prior weight           = 0.25
+       posterior formulation  = Socrates[1]
+       mrf                    = [0.1,1x1x1]
+       Max N4->Atropos iters. = 5
+       use clock random seed  = 0
+
+
+    Using antsAtroposN4 with the following arguments:
+      image dimension         = 3
+      anatomical image        = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation0N4.nii.gz
+      segmentation priors     = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentationPriorWarped%03d.nii.gz
+      output prefix           = /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_Brain
+      output image suffix     = nii.gz
+      denoise images          = 1
+
+    N4 parameters (segmentation):
+      convergence             = [50x50x50x50,0.0000000001]
+      shrink factor           = 2
+      B-spline parameters     = [200]
+      weight mask post. label = 2 3 4 5 6
+
+    Atropos parameters (segmentation):
+       convergence            = [5,0.0]
+       likelihood             = Gaussian
+       prior weight           = 0.25
+       posterior formulation  = Socrates[1]
+       mrf                    = [0.1,1x1x1]
+       Max N4->Atropos iters. = 5
+       use clock random seed  = 0
+
+                             -   -   -
+>> ln -sf /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI_ACT.nii.gz
+
+
+
+Current processing step:
+@8 Quality assessment
+····································································
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainNormalizedToTemplate.nii.gz -bin /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_str2stdmask.nii.gz
+· @8.1 [Computing registration quality metrics]
+                             -   -   -
+>> ${XCPEDIR}/utils/maskOverlap.R -m /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_str2stdmask.nii.gz -r /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz
+· [Cross-correlation:    0.9449503 ]
+· [Coverage:             0.9999365 ]
+· [Jaccard coefficient:  0.9200268 ]
+· [Dice coefficient:     0.9583478 ]
+· @8.2 [Preparing slicewise rendering]
+                             -   -   -
+>> ${XCPEDIR}/utils/regslicer -s /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainNormalizedToTemplate.nii.gz -t /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1~TEMP~_RPI -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_str2std
+· @0.3 
+                             -   -   -
+>> imcp /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz
+/bin/cp: '/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz' and '/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz' are the same file
+                             -   -   -
+>> ${XCPEDIR}/utils/spaceMetadata -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_spaces.json -f MNI%1x1x1:/xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz -m sub-SH259_ses-1_anatomical:/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz -x /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_SubjectToTemplate0GenericAffine.mat,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_SubjectToTemplate1Warp.nii.gz -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_TemplateToSubject0Warp.nii.gz,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_TemplateToSubject1GenericAffine.mat -s /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_spaces.json
+                             -   -   -
+>> rln /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1.nii.gz
+                             -   -   -
+>> 11-10-1
+                             -   -   -
+>> 11-1
+                             -   -   -
+>> rln /projects/adapt_lab/shared/SHARP/bids_data/derivatives/fmriprep/sub-SH259/anat/sub-SH259_desc-preproc_T1w.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_raw.nii.gz
+                             -   -   -
+>> 12-6-1
+                             -   -   -
+>> 12-1
+
+
+
+Current processing step:
+@1 Computing 3-class segmentation
+····································································
+· @1.1 Performing 3 Atropos iterations
+· @1.2 Iteration 1: initialising segmentation
+                             -   -   -
+>> Atropos -d 3 -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1.nii.gz -i KMeans[3] -c [5,0] -m [0,1x1x1] -x /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainExtractionMask.nii.gz -o [/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos0.nii.gz,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos0-priorImage0%02d.nii.gz]
+· @1.3 Iteration 2: refining segmentation
+                             -   -   -
+>> Atropos -d 3 -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1.nii.gz -i PriorProbabilityImages[3,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos0-priorImage0%02d.nii.gz,0.0] -k Gaussian -p Socrates[1] --use-partial-volume-likelihoods 0 -c [12,0.00001] -x /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainExtractionMask.nii.gz -m [0,1x1x1] -o [/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos1.nii.gz,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos1-priorImage0%02d.nii.gz]
+· @1.3 Iteration 3: refining segmentation
+                             -   -   -
+>> Atropos -d 3 -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1.nii.gz -i PriorProbabilityImages[3,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos1-priorImage0%02d.nii.gz,0.0] -k Gaussian -p Socrates[1] --use-partial-volume-likelihoods 0 -c [12,0.00001] -x /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainExtractionMask.nii.gz -m [0,1x1x1] -o [/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos2.nii.gz,/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos2-priorImage0%02d.nii.gz]
+· @1.4 Reorganising output
+                             -   -   -
+>> immv /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos2.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_segmentation3class.nii.gz
+                             -   -   -
+>> immv /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos2-priorImage001.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_probabilityCSF.nii.gz
+                             -   -   -
+>> immv /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos2-priorImage002.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_probabilityGM.nii.gz
+                             -   -   -
+>> immv /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1~TEMP~-atropos2-priorImage003.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_probabilityWM.nii.gz
+
+
+
+Current processing step:
+@2 Mapping grey matter density
+····································································
+· @2.1 Defining tissue boundaries
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_segmentation3class.nii.gz -thr 2 -uthr 2 -bin -mul /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_probabilityGM.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_gmd.nii.gz
+· @2.2 Estimating mean GMD
+                             -   -   -
+>> fslstats /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_gmd.nii.gz -M
+
+
+
+Current processing step:
+@1 ANTs Joint Label Fusion
+····································································
+· @1.1 Cohort: SexBalanced20
+· @1.2 Using brains only
+· @1.4 Assembling cohort
+· @1.5 Configuring parallelisation
+· @1.6a Executing joint label fusion routine
+· @1.6b Delegating control to antsJointLabelFusion
+                             -   -   -
+>> antsJointLabelFusion.sh -d 3 -q 1 -f 0 -j 2 -k 0 -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1.nii.gz -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1_ -c 0 -g /xcpEngine-master/thirdparty/oasis30/Brains/1000.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1000.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1001.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1001.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1002.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1002.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1003.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1003.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1004.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1004.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1005.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1005.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1006.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1006.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1007.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1007.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1009.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1009.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1010.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1010.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1013.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1013.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1015.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1015.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1017.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1017.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1019.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1019.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1036.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1036.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1104.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1104.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1113.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1113.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1116.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1116.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1119.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1119.nii.gz -g /xcpEngine-master/thirdparty/oasis30/Brains/1122.nii.gz -l /xcpEngine-master/thirdparty/oasis30/MICCAI2012ChallengeLabels/1122.nii.gz
+mkdir: cannot create directory ‘/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf’: File exists
+
+
+
+Current processing step:
+@2 Preparing grey matter intersection
+····································································
+· @2.1 Generating non-CSF mask
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation.nii.gz -v 2:6 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-thresholdedImage.nii.gz
+· @2.2 Generating ventricular CSF mask
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1_Labels.nii.gz -v 4,11,46,51,52 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-binMaskCSF.nii.gz
+· @2.3 Generating ventral diencephalon mask
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1_Labels.nii.gz -v 61,62 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-binMaskVD.nii.gz
+· @2.4 Dilating ventricular CSF mask
+                             -   -   -
+>> 3dmask_tool -input /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-binMaskCSF.nii.gz -prefix /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-binMaskCSF_dil.nii.gz -dilate_input 2
+· @2.5 Union of vCSF, VDC, and non-CSF masks
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-thresholdedImage.nii.gz -add /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-binMaskCSF_dil.nii.gz -add /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-binMaskVD.nii.gz -bin /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-thresholdedImage.nii.gz
+· @2.6 Excising extraventricular CSF from labels
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1~TEMP~-thresholdedImage.nii.gz -mul /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1_Labels.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/jlf/sub-SH259_ses-1_LabelsGMIntersect.nii.gz
+· @0.1 
+                             -   -   -
+>> rln /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation0N4.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1_referenceVolume.nii.gz
+                             -   -   -
+>> 12-10-1
+                             -   -   -
+>> 12-1
+/xcpEngine-master/modules/roiquant/roiquant.mod: line 95: ((: == 1 : syntax error: operand expected (error token is "== 1 ")
+
+
+
+Current processing step:
+@1 Regional quantification: miccai
+····································································
+· @1.2 Mapping network to image space
+· @1.2.2 
+                             -   -   -
+>> 12-10-1
+                             -   -   -
+>> 12-1
+                             -   -   -
+>> rln /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_atlas/sub-SH259_ses-1_miccai.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/miccai/sub-SH259_ses-1_miccai.nii.gz
+                             -   -   -
+>> 13-10-1
+                             -   -   -
+>> 13-1
+· @1.3.3 
+                             -   -   -
+>> ${XCPEDIR}/utils/nodeCoverage.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainExtractionMask.nii.gz -r /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_atlas/sub-SH259_ses-1_miccai.nii.gz -x /xcpEngine-master/atlas/miccai/miccaiNodeIndex.1D -n /xcpEngine-master/atlas/miccai/miccaiNodeNames.txt
+· @1.3.4 Computing atlas statistics
+                             -   -   -
+>> ${XCPEDIR}/utils/quantifyAtlas -v /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_CorticalThickness.nii.gz -s mean -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/miccai/sub-SH259_ses-1_miccai_mean_corticalThickness.csv -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_mean_corticalThickness -d anatomical_corticalThickness -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_atlas/sub-SH259_ses-1_miccai.nii.gz -n miccai -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_idx.1D -r /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_names.1D -p sub-SH259,ses-1 -w 0
+· Mean anatomical corticalThickness over miccai
+                             -   -   -
+>> ${XCPEDIR}/utils/quantifyAtlas -v /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/gmd/sub-SH259_ses-1_gmd.nii.gz -s mean -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/miccai/sub-SH259_ses-1_miccai_mean_gmd.csv -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_mean_gmd -d anatomical_gmd -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_atlas/sub-SH259_ses-1_miccai.nii.gz -n miccai -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_idx.1D -r /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_names.1D -p sub-SH259,ses-1 -w 0
+· Mean anatomical gmd over miccai
+                             -   -   -
+>> atlas_set miccai RegionalMeanCorticalThickness /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/miccai/sub-SH259_ses-1_miccai_mean_corticalThickness.csv
+                             -   -   -
+>> atlas_set miccai RegionalMeanGmd /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/miccai/sub-SH259_ses-1_miccai_mean_gmd.csv
+· @1.3.5 
+· @1.3.6 
+· @1.3.7 
+· @1.3.8 
+· @1.3.9 
+                             -   -   -
+>> ${XCPEDIR}/utils/quantifyAtlas -s vol -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/miccai/sub-SH259_ses-1_miccai_vol.csv -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_vol -a /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/sub-SH259_ses-1_atlas/sub-SH259_ses-1_miccai.nii.gz -n miccai -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_idx.1D -r /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/roiquant/sub-SH259_ses-1~TEMP~_miccai_names.1D -p sub-SH259,ses-1 -w 0
+· Volume over miccai
+
+
+
+Current processing step:
+@1 Extracting tissue masks
+····································································
+· @1.1a Successfully identified cerebral cortex
+· @1.1b Extracting cerebral cortex
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation.nii.gz -v 4 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_cortexMask.nii.gz
+· @1.1a Successfully identified white matter
+· @1.1b Extracting white matter
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation.nii.gz -v 3 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_wmMask.nii.gz
+· @1.1a Successfully identified grey matter
+· @1.1b Extracting grey matter
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation.nii.gz -v 2,4 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_gmMask.nii.gz
+· @1.1a Successfully identified cerebrospinal fluid
+· @1.1b Extracting cerebrospinal fluid
+                             -   -   -
+>> ${XCPEDIR}/utils/val2mask.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_BrainSegmentation.nii.gz -v 1 -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_csfMask.nii.gz
+
+
+
+Current processing step:
+@2 Determining image foreground/background
+····································································
+· @2.1 Attempting warp to subject space
+                             -   -   -
+>> rm /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_mniCoords.sclib
+rm: cannot remove '/projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_mniCoords.sclib': No such file or directory
+                             -   -   -
+>> ${XCPEDIR}/utils/pointTransform -v -i /xcpEngine-master/modules/qcanat/mniCoords.sclib -s /xcpEngine-master/space/MNI/MNI-1x1x1.nii.gz -r /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_SubjectToTemplate0GenericAffine.mat -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_SubjectToTemplate1Warp.nii.gz -n /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~
+                             -   -   -
+>> antsApplyTransforms -e 3 -d 3 -i /xcpEngine-master/modules/qcanat/mniForeGroundMask.nii.gz -r /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_ExtractedBrain0N4.nii.gz -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg.nii.gz -n NearestNeighbor -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_TemplateToSubject1GenericAffine.mat -t /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/struc/sub-SH259_ses-1_TemplateToSubject0Warp.nii.gz
+                             -   -   -
+>> ${XCPEDIR}/utils/sclib2csv.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_mniCoords.sclib -c sclib2csv -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_landmarksCoords.csv
+· @2.5 Removing neck and nose from background
+                             -   -   -
+>> ${XCPEDIR}/utils/extendMaskInferior.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg.nii.gz -o /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-extend.nii.gz -c /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_landmarksCoords.csv
+· @2.6 Classifying sinuses as background
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg.nii.gz -mul /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-extend.nii.gz -sub 1 -abs /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-3.nii.gz
+                             -   -   -
+>> ImageMath 3 /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-4.nii.gz GetLargestComponent /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-3.nii.gz
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-3.nii.gz -sub /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-4.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-5.nii.gz
+                             -   -   -
+>> fslmaths /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-extend.nii.gz -sub /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1~TEMP~-fg-5.nii.gz /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_foreground.nii.gz
+
+
+
+Current processing step:
+@3 Computing measures of anatomical quality
+····································································
+· @3.1 Using cortical mask
+                             -   -   -
+>> ${XCPEDIR}/utils/qcanat.R -i /projects/adapt_lab/shared/SHARP/bids_data/derivatives/fmriprep/sub-SH259/anat/sub-SH259_desc-preproc_T1w.nii.gz -m /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_gmMask.nii.gz -w /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_wmMask.nii.gz -f /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_foreground.nii.gz -c /projects/adapt_lab/shared/SHARP/bids_data/derivatives/xcpEngine/data/sub-SH259/ses-1/qcanat/sub-SH259_ses-1_cortexMask.nii.gz
+· [Foreground-background energy ratio:   1.142883 ]
+· [Signal-to-noise ratio:                2.862058 ]
+· [Contrast-to-noise ratio:              0.6818189 ]
+· [Cortical contrasts:                   0.08118162 ]
+· [Entropy focus criterion:              0.5283683 ]
+· [Grey matter kurtosis:                 3.554977 ]
+· [Grey matter skewness:                 -0.4233404 ]
+· [White matter kurtosis:                3.562239 ]
+· [White matter skewness:                -1.119539 ]
+· [Background kurtosis:                  10.13081 ]
+· [Background skewness:                  2.743622 ]
+· @3.2 Organising estimates
