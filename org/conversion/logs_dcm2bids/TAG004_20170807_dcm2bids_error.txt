@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/dcm2bids", line 87, in <module>
+    sys.exit(main())
+  File "/usr/local/bin/dcm2bids", line 82, in main
+    app = Dcm2bids(**vars(args))
+  File "/usr/local/lib/python2.7/dist-packages/dcm2bids/dcm2bids.py", line 36, in __init__
+    self._setLogger(log_level)
+  File "/usr/local/lib/python2.7/dist-packages/dcm2bids/dcm2bids.py", line 63, in _setLogger
+    make_directory_tree(logDir)
+  File "/usr/local/lib/python2.7/dist-packages/dcm2bids/utils.py", line 44, in make_directory_tree
+    os.makedirs(directory)
+  File "/usr/lib/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 17] File exists: '/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/log'
