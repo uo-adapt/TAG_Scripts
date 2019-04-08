@@ -23,7 +23,7 @@ from datetime import datetime
 # These variables are used only in the config file path names 
 # and can be commented out if not needed.
 group = "adapt_lab"
-study = "SHARP"
+study = "TAG"
 PI = "Allen"
 scriptsFolder = "TAG_Scripts"
 
