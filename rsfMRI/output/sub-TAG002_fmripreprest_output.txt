@@ -1,0 +1,198 @@
+
+Fmriprep on sub-TAG002
+
+Container: /projects/adapt_lab/shared/containers/fmriprep-1.2.4.simg
+
+Subject directory: /projects/adapt_lab/shared/TAG/bids_data
+
+Starting on: rest
+
+
+190409-12:36:14,284 nipype.workflow IMPORTANT:
+	 
+    Running fMRIPREP version 1.2.4:
+      * BIDS dataset path: /projects/adapt_lab/shared/TAG/bids_data.
+      * Participant list: ['TAG002'].
+      * Run identifier: 20190409-123614_cd03db29-1b43-45f1-9fe8-213a8849e7c3.
+    
+190409-12:36:15,863 nipype.workflow IMPORTANT:
+	 Creating bold processing workflow for "/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-1/func/sub-TAG002_ses-1_task-rest_run-01_bold.nii.gz" (0.15 GB / 270 TRs). Memory resampled/largemem=0.59/0.99 GB.
+190409-12:36:15,865 nipype.workflow IMPORTANT:
+	 No single-band-reference found for sub-TAG002_ses-1_task-rest_run-01_bold.nii.gz
+190409-12:36:17,183 nipype.workflow IMPORTANT:
+	 Slice-timing correction will be included.
+190409-12:36:17,204 nipype.workflow WARNING:
+	 SDC: no fieldmaps found or they were ignored (/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-1/func/sub-TAG002_ses-1_task-rest_run-01_bold.nii.gz).
+190409-12:36:18,102 nipype.workflow IMPORTANT:
+	 Creating BOLD surface-sampling workflow.
+190409-12:36:19,761 nipype.workflow IMPORTANT:
+	 Creating bold processing workflow for "/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-1/func/sub-TAG002_ses-1_task-rest_run-02_bold.nii.gz" (0.15 GB / 270 TRs). Memory resampled/largemem=0.59/0.99 GB.
+190409-12:36:19,763 nipype.workflow IMPORTANT:
+	 No single-band-reference found for sub-TAG002_ses-1_task-rest_run-02_bold.nii.gz
+190409-12:36:20,671 nipype.workflow IMPORTANT:
+	 Slice-timing correction will be included.
+190409-12:36:20,687 nipype.workflow WARNING:
+	 SDC: no fieldmaps found or they were ignored (/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-1/func/sub-TAG002_ses-1_task-rest_run-02_bold.nii.gz).
+190409-12:36:21,616 nipype.workflow IMPORTANT:
+	 Creating BOLD surface-sampling workflow.
+190409-12:36:23,265 nipype.workflow IMPORTANT:
+	 Creating bold processing workflow for "/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-2/func/sub-TAG002_ses-2_task-rest_run-01_bold.nii.gz" (0.22 GB / 395 TRs). Memory resampled/largemem=0.87/1.74 GB.
+190409-12:36:23,267 nipype.workflow IMPORTANT:
+	 No single-band-reference found for sub-TAG002_ses-2_task-rest_run-01_bold.nii.gz
+190409-12:36:24,328 nipype.workflow IMPORTANT:
+	 Slice-timing correction will be included.
+190409-12:36:24,347 nipype.workflow WARNING:
+	 SDC: no fieldmaps found or they were ignored (/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-2/func/sub-TAG002_ses-2_task-rest_run-01_bold.nii.gz).
+190409-12:36:25,227 nipype.workflow IMPORTANT:
+	 Creating BOLD surface-sampling workflow.
+190409-12:36:26,913 nipype.workflow IMPORTANT:
+	 Creating bold processing workflow for "/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-2/func/sub-TAG002_ses-2_task-rest_run-02_bold.nii.gz" (0.22 GB / 395 TRs). Memory resampled/largemem=0.87/1.74 GB.
+190409-12:36:26,915 nipype.workflow IMPORTANT:
+	 No single-band-reference found for sub-TAG002_ses-2_task-rest_run-02_bold.nii.gz
+190409-12:36:27,975 nipype.workflow IMPORTANT:
+	 Slice-timing correction will be included.
+190409-12:36:27,995 nipype.workflow WARNING:
+	 SDC: no fieldmaps found or they were ignored (/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-2/func/sub-TAG002_ses-2_task-rest_run-02_bold.nii.gz).
+190409-12:36:28,923 nipype.workflow IMPORTANT:
+	 Creating BOLD surface-sampling workflow.
+190409-12:36:30,595 nipype.workflow IMPORTANT:
+	 Creating bold processing workflow for "/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-2/func/sub-TAG002_ses-2_task-rest_run-03_bold.nii.gz" (0.16 GB / 294 TRs). Memory resampled/largemem=0.65/1.12 GB.
+190409-12:36:30,597 nipype.workflow IMPORTANT:
+	 No single-band-reference found for sub-TAG002_ses-2_task-rest_run-03_bold.nii.gz
+190409-12:36:31,547 nipype.workflow IMPORTANT:
+	 Slice-timing correction will be included.
+190409-12:36:31,564 nipype.workflow WARNING:
+	 SDC: no fieldmaps found or they were ignored (/projects/adapt_lab/shared/TAG/bids_data/sub-TAG002/ses-2/func/sub-TAG002_ses-2_task-rest_run-03_bold.nii.gz).
+190409-12:36:32,412 nipype.workflow IMPORTANT:
+	 Creating BOLD surface-sampling workflow.
+190409-12:36:36,681 nipype.workflow IMPORTANT:
+	 Works derived from this fMRIPrep execution should include the following boilerplate:
+
+
+Results included in this manuscript come from preprocessing
+performed using *fMRIPprep* 1.2.4
+(@fmriprep1; @fmriprep2; RRID:SCR_016216),
+which is based on *Nipype* 1.1.6
+(@nipype1; @nipype2; RRID:SCR_002502).
+
+Anatomical data preprocessing
+
+: A total of 4 T1-weighted (T1w) images were found within the input
+BIDS dataset.
+All of them were corrected for intensity non-uniformity (INU)
+using `N4BiasFieldCorrection` [@n4, ANTs 2.2.0].
+A T1w-reference map was computed after registration of
+4 T1w images (after INU-correction) using
+`mri_robust_template` [FreeSurfer 6.0.1, @fs_template].
+The T1w-reference was then skull-stripped using `antsBrainExtraction.sh`
+(ANTs 2.2.0), using OASIS as target template.
+Brain surfaces were reconstructed using `recon-all` [FreeSurfer 6.0.1,
+RRID:SCR_001847, @fs_reconall], and the brain mask estimated
+previously was refined with a custom variation of the method to reconcile
+ANTs-derived and FreeSurfer-derived segmentations of the cortical
+gray-matter of Mindboggle [RRID:SCR_002438, @mindboggle].
+Spatial normalization to the ICBM 152 Nonlinear Asymmetrical
+template version 2009c [@mni, RRID:SCR_008796] was performed
+through nonlinear registration with `antsRegistration`
+[ANTs 2.2.0, RRID:SCR_004757, @ants], using
+brain-extracted versions of both T1w volume and template.
+Brain tissue segmentation of cerebrospinal fluid (CSF),
+white-matter (WM) and gray-matter (GM) was performed on
+the brain-extracted T1w using `fast` [FSL 5.0.9, RRID:SCR_002823,
+@fsl_fast].
+
+
+Functional data preprocessing
+
+: For each of the 5 BOLD runs found per subject (across all
+tasks and sessions), the following preprocessing was performed.
+First, a reference volume and its skull-stripped version were generated
+using a custom methodology of *fMRIPrep*.
+The BOLD reference was then co-registered to the T1w reference using
+`bbregister` (FreeSurfer) which implements boundary-based registration [@bbr].
+Co-registration was configured with nine degrees of freedom to account
+for distortions remaining in the BOLD reference.
+Head-motion parameters with respect to the BOLD reference
+(transformation matrices, and six corresponding rotation and translation
+parameters) are estimated before any spatiotemporal filtering using
+`mcflirt` [FSL 5.0.9, @mcflirt].
+BOLD runs were slice-time corrected using `3dTshift` from
+AFNI 20160207 [@afni, RRID:SCR_005927].
+The BOLD time-series, were resampled to surfaces on the following
+spaces: *fsaverage5*, *fsnative*.
+The BOLD time-series (including slice-timing correction when applied)
+were resampled onto their original, native space by applying
+a single, composite transform to correct for head-motion and
+susceptibility distortions.
+These resampled BOLD time-series will be referred to as *preprocessed
+BOLD in original space*, or just *preprocessed BOLD*.
+First, a reference volume and its skull-stripped version were generated
+using a custom methodology of *fMRIPrep*.
+Automatic removal of motion artifacts using independent component analysis
+[ICA-AROMA, @aroma] was performed on the *preprocessed BOLD on MNI space*
+time-series after removal of non-steady state volumes and spatial smoothing
+with an isotropic, Gaussian kernel of 6mm FWHM (full-width half-maximum).
+Corresponding "non-aggresively" denoised runs were produced after such
+smoothing.
+Additionally, the "aggressive" noise-regressors were collected and placed
+in the corresponding confounds file.
+The BOLD time-series were resampled to MNI152NLin2009cAsym standard space,
+generating a *preprocessed BOLD run in MNI152NLin2009cAsym space*.
+First, a reference volume and its skull-stripped version were generated
+using a custom methodology of *fMRIPrep*.
+Several confounding time-series were calculated based on the
+*preprocessed BOLD*: framewise displacement (FD), DVARS and
+three region-wise global signals.
+FD and DVARS are calculated for each functional run, both using their
+implementations in *Nipype* [following the definitions by @power_fd_dvars].
+The three global signals are extracted within the CSF, the WM, and
+the whole-brain masks.
+Additionally, a set of physiological regressors were extracted to
+allow for component-based noise correction [*CompCor*, @compcor].
+Principal components are estimated after high-pass filtering the
+*preprocessed BOLD* time-series (using a discrete cosine filter with
+128s cut-off) for the two *CompCor* variants: temporal (tCompCor)
+and anatomical (aCompCor).
+Six tCompCor components are then calculated from the top 5% variable
+voxels within a mask covering the subcortical regions.
+This subcortical mask is obtained by heavily eroding the brain mask,
+which ensures it does not include cortical GM regions.
+For aCompCor, six components are calculated within the intersection of
+the aforementioned mask and the union of CSF and WM masks calculated
+in T1w space, after their projection to the native space of each
+functional run (using the inverse BOLD-to-T1w transformation).
+The head-motion estimates calculated in the correction step were also
+placed within the corresponding confounds file.
+All resamplings can be performed with *a single interpolation
+step* by composing all the pertinent transformations (i.e. head-motion
+transform matrices, susceptibility distortion correction when available,
+and co-registrations to anatomical and template spaces).
+Gridded (volumetric) resamplings were performed using `antsApplyTransforms` (ANTs),
+configured with Lanczos interpolation to minimize the smoothing
+effects of other kernels [@lanczos].
+Non-gridded (surface) resamplings were performed using `mri_vol2surf`
+(FreeSurfer).
+
+
+Many internal operations of *fMRIPrep* use
+*Nilearn* 0.5.0 [@nilearn, RRID:SCR_001362],
+mostly within the functional processing workflow.
+For more details of the pipeline, see [the section corresponding
+to workflows in *fMRIPrep*'s documentation](https://fmriprep.readthedocs.io/en/latest/workflows.html "FMRIPrep's documentation").
+
+
+### References
+
+
+190409-12:36:39,766 nipype.workflow WARNING:
+	 Could not generate CITATION.html file:
+pandoc -s --bibliography /usr/local/miniconda/lib/python3.6/site-packages/fmriprep/data/boilerplate.bib --filter pandoc-citeproc /projects/adapt_lab/shared/TAG/bids_data/derivatives/fmriprep/logs/CITATION.md -o /projects/adapt_lab/shared/TAG/bids_data/derivatives/fmriprep/logs/CITATION.html
+190409-12:36:39,846 nipype.workflow WARNING:
+	 Could not generate CITATION.tex file:
+pandoc -s --bibliography /usr/local/miniconda/lib/python3.6/site-packages/fmriprep/data/boilerplate.bib --natbib /projects/adapt_lab/shared/TAG/bids_data/derivatives/fmriprep/logs/CITATION.md -o /projects/adapt_lab/shared/TAG/bids_data/derivatives/fmriprep/logs/CITATION.tex
+
+
+
+done
+
+-------------------------------

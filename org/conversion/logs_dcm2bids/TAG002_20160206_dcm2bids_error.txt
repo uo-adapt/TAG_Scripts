@@ -37,5 +37,132 @@ INFO:dcm2bids:session: 1
 INFO:dcm2bids:config: /projects/adapt_lab/shared/TAG/TAG_Scripts/org/conversion/study_config.json
 INFO:dcm2bids:BIDS directory: /projects/adapt_lab/shared/TAG/bids_data
 INFO:dcm2bids:
+INFO:dcm2bids:Old dcm2niix output found
+INFO:dcm2bids:Cleaning the old dcm2niix output and rerun it because --forceDcm2niix
+INFO:dcm2bids:
 INFO:dcm2bids:--- running dcm2niix ---
 INFO:dcm2bids:subprocess: dcm2niix -b y -ba y -z y -f '%3s_%f_%p_%t' -o /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1 /projects/adapt_lab/pettitta/TAG002_20160206
+INFO:dcm2bids:
+Chris Rorden's dcm2niiX version v1.0.20171215 GCC5.3.1 (64-bit Linux)
+Found 2281 DICOM image(s)
+Convert 72 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/013_TAG002_20160206_fieldmap_2mm_20160206125431_e2 (104x104x72x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/013_TAG002_20160206_fieldmap_2mm_20160206125431_e2.nii"
+Convert 176 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/005_TAG002_20160206_mprage_p2_20160206125431 (256x256x176x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/005_TAG002_20160206_mprage_p2_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Note: rare 16-bit UNSIGNED integer image. Older tools may require 32-bit conversion
+Convert 225 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/014_TAG002_20160206_DSD_2_bold_mb3_g2_2mm_te25_20160206125431 (104x104x72x225)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/014_TAG002_20160206_DSD_2_bold_mb3_g2_2mm_te25_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Convert 270 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/010_TAG002_20160206_Resting_2_20160206125431 (84x84x60x270)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/010_TAG002_20160206_Resting_2_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Convert 270 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/008_TAG002_20160206_Resting_1_20160206125431 (84x84x60x270)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/008_TAG002_20160206_Resting_1_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Convert 180 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/007_TAG002_20160206_SVC_1_bold_mb3_g2_2mm_te25_20160206125431 (104x104x72x180)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/007_TAG002_20160206_SVC_1_bold_mb3_g2_2mm_te25_20160206125431.nii"
+slices not stacked: echo varies (TE 4.37, 6.83; echo 1, 2). Use 'merge 2D slices' option to force stacking
+Convert 72 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/012_TAG002_20160206_fieldmap_2mm_20160206125431 (104x104x72x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/012_TAG002_20160206_fieldmap_2mm_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Note: rare 16-bit UNSIGNED integer image. Older tools may require 32-bit conversion
+Convert 225 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/011_TAG002_20160206_DSD_1_bold_mb3_g2_2mm_te25_20160206125431_e1 (104x104x72x225)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/011_TAG002_20160206_DSD_1_bold_mb3_g2_2mm_te25_20160206125431_e1.nii"
+Convert 72 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/100_TAG002_20160206_SVC_2_bold_mb3_g2_2mm_te25_20160206125431 (104x104x72x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/100_TAG002_20160206_SVC_2_bold_mb3_g2_2mm_te25_20160206125431.nii"
+Convert 176 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/006_TAG002_20160206_mprage_p2_20160206125431 (256x256x176x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/006_TAG002_20160206_mprage_p2_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Convert 180 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/009_TAG002_20160206_SVC_2_bold_mb3_g2_2mm_te25_20160206125431 (104x104x72x180)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/009_TAG002_20160206_SVC_2_bold_mb3_g2_2mm_te25_20160206125431.nii"
+Convert 128 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/001_TAG002_20160206_AAHScout_20160206125431 (160x160x128x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/001_TAG002_20160206_AAHScout_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Warning: Saving 65 DTI gradients. Validate vectors (images are not axial slices).
+Convert 65 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/015_TAG002_20160206_diff_mb2_g2_64dirs_2mm_rl_20160206125431 (90x104x72x65)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/015_TAG002_20160206_diff_mb2_g2_64dirs_2mm_rl_20160206125431.nii"
+slices stacked despite varying acquisition numbers (if this is not desired please recompile)
+Warning: Saving 65 DTI gradients. Validate vectors (images are not axial slices).
+Convert 65 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/016_TAG002_20160206_diff_mb2_g2_64dirs_2mm_lr_20160206125431 (90x104x72x65)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/016_TAG002_20160206_diff_mb2_g2_64dirs_2mm_lr_20160206125431.nii"
+slices not stacked: echo varies (TE 6.83, 4.37; echo 2, 1). Use 'merge 2D slices' option to force stacking
+Convert 72 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/012_TAG002_20160206_fieldmap_2mm_20160206125431_e2 (104x104x72x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/012_TAG002_20160206_fieldmap_2mm_20160206125431_e2.nii"
+slices not stacked: orientation varies (localizer?) [0.99948 -0.0253423 0.0199518 0.0292732 0.453015 -0.891022] != [0.999458 -0.0320216 0.00769966 0.0180804 0.338074 -0.940946]
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/003_TAG002_20160206_AAHScout_20160206125431 (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/003_TAG002_20160206_AAHScout_20160206125431.nii"
+slices not stacked: orientation varies (localizer?) [0.0137559 0.867027 0.498072 0.00834635 0.498002 -0.867136] != [0.0150052 0.94085 0.338491 0.00580793 0.338441 -0.94097]
+Convert 2 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431 (162x162x2x1)
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431.nii"
+slices not stacked: orientation varies (localizer?) [0.0150052 0.94085 0.338491 0.00580793 0.338441 -0.94097] != [-0.575347 0.690339 0.438644 0.0138193 0.544427 -0.838694]
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431a (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431a.nii"
+slices not stacked: orientation varies (localizer?) [-0.575347 0.690339 0.438644 0.0138193 0.544427 -0.838694] != [0.0137559 0.867027 0.498072 0.00834635 0.498002 -0.867136]
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431b (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431b.nii"
+slices not stacked: orientation varies (localizer?) [0.999458 -0.0320216 0.00769966 0.0180804 0.338074 -0.940946] != [0.999871 -0.0160854 0.000386018 0.00580793 0.338441 -0.94097]
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/003_TAG002_20160206_AAHScout_20160206125431a (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/003_TAG002_20160206_AAHScout_20160206125431a.nii"
+slices not stacked: orientation varies (localizer?) [0.999816 -0.0186642 0.00435851 0.0132807 0.8386 0.544585] != [0.999871 -0.0160854 0.000386018 0.0157115 0.981244 0.192128]
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/004_TAG002_20160206_AAHScout_20160206125431 (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/004_TAG002_20160206_AAHScout_20160206125431.nii"
+slices not stacked: orientation varies (localizer?) [0.999871 -0.0160854 0.000386018 0.0157115 0.981244 0.192128] != [0.999458 -0.0320216 0.00769966 0.0275276 0.940575 0.338469]
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/004_TAG002_20160206_AAHScout_20160206125431a (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/004_TAG002_20160206_AAHScout_20160206125431a.nii"
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431c (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/002_TAG002_20160206_AAHScout_20160206125431c.nii"
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/003_TAG002_20160206_AAHScout_20160206125431b (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/003_TAG002_20160206_AAHScout_20160206125431b.nii"
+Convert 1 DICOM as /projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/004_TAG002_20160206_AAHScout_20160206125431b (162x162x1x1)
+Warning: Check that 2D images are not mirrored.
+compress: "/usr/bin/pigz" -n -f -6 "/projects/adapt_lab/shared/TAG/bids_data/tmp_dcm2bids/sub-TAG002_ses-1/004_TAG002_20160206_AAHScout_20160206125431b.nii"
+Conversion required 267.551150 seconds (8.922460 for core code).
+
+INFO:dcm2bids:
+INFO:dcm2bids:Sidecars matching:
+INFO:dcm2bids:NO MATCH        001_TAG002_20160206_AAHScout_20160206125431.json
+INFO:dcm2bids:NO MATCH        002_TAG002_20160206_AAHScout_20160206125431.json
+INFO:dcm2bids:NO MATCH        002_TAG002_20160206_AA..t_20160206125431a.json
+INFO:dcm2bids:NO MATCH        002_TAG002_20160206_AA..t_20160206125431b.json
+INFO:dcm2bids:NO MATCH        002_TAG002_20160206_AA..t_20160206125431c.json
+INFO:dcm2bids:NO MATCH        003_TAG002_20160206_AAHScout_20160206125431.json
+INFO:dcm2bids:NO MATCH        003_TAG002_20160206_AA..t_20160206125431a.json
+INFO:dcm2bids:NO MATCH        003_TAG002_20160206_AA..t_20160206125431b.json
+INFO:dcm2bids:NO MATCH        004_TAG002_20160206_AAHScout_20160206125431.json
+INFO:dcm2bids:NO MATCH        004_TAG002_20160206_AA..t_20160206125431a.json
+INFO:dcm2bids:NO MATCH        004_TAG002_20160206_AA..t_20160206125431b.json
+INFO:dcm2bids:MATCH           005_TAG002_20160206_mp..p2_20160206125431.json
+INFO:dcm2bids:MATCH           006_TAG002_20160206_mp..p2_20160206125431.json
+INFO:dcm2bids:NO MATCH        007_TAG002_20160206_SV..25_20160206125431.json
+INFO:dcm2bids:MATCH           008_TAG002_20160206_Re.._1_20160206125431.json
+INFO:dcm2bids:NO MATCH        009_TAG002_20160206_SV..25_20160206125431.json
+INFO:dcm2bids:MATCH           010_TAG002_20160206_Re.._2_20160206125431.json
+INFO:dcm2bids:NO MATCH        011_TAG002_20160206_DS..20160206125431_e1.json
+INFO:dcm2bids:NO MATCH        012_TAG002_20160206_fi..mm_20160206125431.json
+INFO:dcm2bids:NO MATCH        012_TAG002_20160206_fi..20160206125431_e2.json
+INFO:dcm2bids:NO MATCH        013_TAG002_20160206_fi..20160206125431_e2.json
+INFO:dcm2bids:NO MATCH        014_TAG002_20160206_DS..25_20160206125431.json
+INFO:dcm2bids:MATCH           015_TAG002_20160206_di..rl_20160206125431.json
+INFO:dcm2bids:MATCH           016_TAG002_20160206_di..lr_20160206125431.json
+INFO:dcm2bids:NO MATCH        100_TAG002_20160206_SV..25_20160206125431.json
+INFO:dcm2bids:
+INFO:dcm2bids:Checking if a description matches several sidecars ...
+INFO:dcm2bids:'T1w' has several runs
+INFO:dcm2bids:'task-rest_bold' has several runs
+INFO:dcm2bids:
+INFO:dcm2bids:moving acquisitions into BIDS output directory
+INFO:dcm2bids:overwriting: sub-TAG002_ses-1_run-01_T1w
+INFO:dcm2bids:overwriting: sub-TAG002_ses-1_run-02_T1w
+INFO:dcm2bids:overwriting: sub-TAG002_ses-1_task-rest_run-01_bold
+INFO:dcm2bids:overwriting: sub-TAG002_ses-1_task-rest_run-02_bold
+INFO:dcm2bids:overwriting: sub-TAG002_ses-1_acq-rl_dwi
+INFO:dcm2bids:overwriting: sub-TAG002_ses-1_acq-lr_dwi

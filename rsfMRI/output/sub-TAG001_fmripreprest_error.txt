@@ -1,0 +1,430 @@
+[WARNING] This document format requires a nonempty <title> element.
+  Please specify either 'title' or 'pagetitle' in the metadata.
+  Falling back to 'CITATION'
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:116: UserWarning: 'dataset_description.json' file is missing from project root. You may want to set the root path to a valid BIDS project.
+  warnings.warn("'dataset_description.json' file is missing from "
+/usr/local/miniconda/lib/python3.6/site-packages/grabbit/core.py:436: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/config/bids.json' mode='r' encoding='UTF-8'>
+  domain = json.load(open(domain, 'r'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG001/ses-1/func/sub-TAG001_ses-1_task-rest_run-01_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG001/ses-1/func/sub-TAG001_ses-1_task-rest_run-02_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG001/ses-2/func/sub-TAG001_ses-2_task-rest_run-01_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG001/ses-2/func/sub-TAG001_ses-2_task-rest_run-02_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG001/ses-2/func/sub-TAG001_ses-2_task-rest_run-03_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'ResourceWarning'>): unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+Captured warning (<class 'PendingDeprecationWarning'>): the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/cli/run.py", line 431, in main
+    fmriprep_wf.run(**plugin_settings)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/workflows.py", line 597, in run
+    runner.run(execgraph, updatehash=updatehash, config=self.config)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/base.py", line 162, in run
+    self._clean_queue(jobid, graph, result=result))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/base.py", line 223, in _clean_queue
+    crashfile = self._report_crash(self.procs[jobid], result=result)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/base.py", line 209, in _report_crash
+    return report_crash(node, traceback=tb)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/tools.py", line 59, in report_crash
+    crash2txt(crashfile, dict(node=node, traceback=traceback))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/utils/filemanip.py", line 695, in crash2txt
+    fp.write(''.join(record['traceback']))
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/miniconda/bin/fmriprep", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/cli/run.py", line 440, in main
+    sentry_sdk=sentry_sdk)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 348, in generate_reports
+    for subject_label in subject_list
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 348, in <listcomp>
+    for subject_label in subject_list
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 336, in run_reports
+    report = Report(reportlet_path, config, out_dir, run_uuid, out_filename, sentry_sdk=sentry_sdk)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 72, in __init__
+    self._load_config(config)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 78, in _load_config
+    self.index(config['sections'])
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 120, in index
+    self.index_error_dir(error_dir)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 128, in index_error_dir
+    crash_info = read_crashfile(str(crashfile))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/utils/misc.py", line 67, in read_crashfile
+    return _read_txt(path)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/utils/misc.py", line 90, in _read_txt
+    if lines[0].startswith('Node'):
+IndexError: list index out of range
+Sentry is attempting to send 1 pending error messages
+Waiting up to 2.0 seconds
+Press Ctrl-C to quit
+Captured warning (<class 'ResourceWarning'>): unclosed <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.20.11.75', 57142), raddr=('35.188.42.15', 443)>
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nitime/utils.py:980: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  complex_result = (np.issubdtype(in1.dtype, np.complex) or
+/usr/local/miniconda/lib/python3.6/site-packages/scipy/fftpack/basic.py:160: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  z[index] = x
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/nitime/utils.py:980: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  complex_result = (np.issubdtype(in1.dtype, np.complex) or
+/usr/local/miniconda/lib/python3.6/site-packages/scipy/fftpack/basic.py:160: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  z[index] = x
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nitime/utils.py:980: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  complex_result = (np.issubdtype(in1.dtype, np.complex) or
+/usr/local/miniconda/lib/python3.6/site-packages/scipy/fftpack/basic.py:160: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  z[index] = x
+/usr/local/miniconda/lib/python3.6/site-packages/nitime/utils.py:980: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  complex_result = (np.issubdtype(in1.dtype, np.complex) or
+/usr/local/miniconda/lib/python3.6/site-packages/scipy/fftpack/basic.py:160: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  z[index] = x
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nitime/utils.py:980: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  complex_result = (np.issubdtype(in1.dtype, np.complex) or
+/usr/local/miniconda/lib/python3.6/site-packages/scipy/fftpack/basic.py:160: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  z[index] = x
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/interfaces/bids.py:155: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  imtype, self.inputs.subject_id))
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/site-packages/nibabel/nifti1.py:582: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  ext_def = np.fromstring(ext_def, dtype=np.int32)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)

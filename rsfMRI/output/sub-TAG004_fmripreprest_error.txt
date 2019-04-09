@@ -1,0 +1,113 @@
+[WARNING] This document format requires a nonempty <title> element.
+  Please specify either 'title' or 'pagetitle' in the metadata.
+  Falling back to 'CITATION'
+pandoc: /projects/adapt_lab/shared/TAG/bids_data/derivatives/fmriprep/logs/CITATION.html: commitBuffer: permission denied (Quota exceeded)
+pandoc: /projects/adapt_lab/shared/TAG/bids_data/derivatives/fmriprep/logs/CITATION.tex: commitBuffer: permission denied (Quota exceeded)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:116: UserWarning: 'dataset_description.json' file is missing from project root. You may want to set the root path to a valid BIDS project.
+  warnings.warn("'dataset_description.json' file is missing from "
+/usr/local/miniconda/lib/python3.6/site-packages/grabbit/core.py:436: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/config/bids.json' mode='r' encoding='UTF-8'>
+  domain = json.load(open(domain, 'r'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG004/ses-1/func/sub-TAG004_ses-1_task-rest_run-01_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG004/ses-1/func/sub-TAG004_ses-1_task-rest_run-02_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG004/ses-2/func/sub-TAG004_ses-2_task-rest_run-01_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+/usr/local/miniconda/lib/python3.6/site-packages/bids/layout/bids_layout.py:208: ResourceWarning: unclosed file <_io.TextIOWrapper name='/projects/adapt_lab/shared/TAG/bids_data/sub-TAG004/ses-2/func/sub-TAG004_ses-2_task-rest_run-02_bold.json' mode='r' encoding='utf-8'>
+  encoding='utf-8'))
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'ResourceWarning'>): unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'ImportWarning'>): can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+Captured warning (<class 'PendingDeprecationWarning'>): the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/interfaces/bids.py:155: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  imtype, self.inputs.subject_id))
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/site-packages/skimage/__init__.py:80: ResourceWarning: unclosed file <_io.TextIOWrapper name='/usr/local/miniconda/lib/python3.6/site-packages/pytest.py' mode='r' encoding='utf-8'>
+  imp.find_module('pytest')
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+/usr/local/miniconda/lib/python3.6/importlib/_bootstrap.py:219: ImportWarning: can't resolve package from __spec__ or __package__, falling back on __name__ and __path__
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "/usr/local/miniconda/bin/fmriprep", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/cli/run.py", line 440, in main
+    sentry_sdk=sentry_sdk)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 348, in generate_reports
+    for subject_label in subject_list
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 348, in <listcomp>
+    for subject_label in subject_list
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 336, in run_reports
+    report = Report(reportlet_path, config, out_dir, run_uuid, out_filename, sentry_sdk=sentry_sdk)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 72, in __init__
+    self._load_config(config)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 78, in _load_config
+    self.index(config['sections'])
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 120, in index
+    self.index_error_dir(error_dir)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/viz/reports.py", line 128, in index_error_dir
+    crash_info = read_crashfile(str(crashfile))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/utils/misc.py", line 67, in read_crashfile
+    return _read_txt(path)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/utils/misc.py", line 108, in _read_txt
+    cur_key, cur_val = tuple(line.split(' = ', 1))
+ValueError: not enough values to unpack (expected 2, got 1)
+Sentry is attempting to send 1 pending error messages
+Waiting up to 2.0 seconds
+Press Ctrl-C to quit
+Captured warning (<class 'ResourceWarning'>): unclosed <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.20.11.75', 58154), raddr=('35.188.42.15', 443)>
